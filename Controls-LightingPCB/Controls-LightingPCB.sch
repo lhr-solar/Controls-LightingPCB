@@ -3,7 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
+<<<<<<< HEAD
 Sheet 1 4
+=======
+Sheet 1 3
+>>>>>>> b79ea8a988a011a97927261fb1498ef58dfa7e8f
 Title ""
 Date ""
 Rev ""
@@ -111,5 +115,28 @@ Wire Wire Line
 Wire Wire Line
 	9050 4350 9250 4350
 Wire Wire Line
+<<<<<<< HEAD
 	9250 4450 9050 4450
+=======
+	4900 3850 4500 3850
+$Sheet
+S 8300 2100 1150 800 
+U 5F78B0A1
+F0 "ControlSwitches" 50
+F1 "ControlSwitches.sch" 50
+F2 "CRUZ_ST" O L 8300 2200 50 
+F3 "CRUZ_EN" O L 8300 2300 50 
+F4 "HZD_SW" O L 8300 2400 50 
+F5 "FR_SW" O L 8300 2500 50 
+F6 "Headlight_SW" O L 8300 2600 50 
+F7 "LEFT_SW" O L 8300 2700 50 
+F8 "RIGHT_SW" O L 8300 2800 50 
+$EndSheet
+$Sheet
+S 8300 3400 1100 950 
+U 5F78BF30
+F0 "ShiftReg" 50
+F1 "ShiftReg.sch" 50
+$EndSheet
+>>>>>>> b79ea8a988a011a97927261fb1498ef58dfa7e8f
 $EndSCHEMATC
