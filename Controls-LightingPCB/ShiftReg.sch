@@ -3,11 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD:Controls-LightingPCB/ShiftReg.sch
 Sheet 3 4
-=======
-Sheet 3 3
->>>>>>> b79ea8a988a011a97927261fb1498ef58dfa7e8f:ShiftReg.sch
 Title ""
 Date ""
 Rev ""
@@ -23,11 +19,7 @@ U 1 1 5F79C078
 P 5850 4100
 AR Path="/5F79C078" Ref="U?"  Part="1" 
 AR Path="/5F768F42/5F79C078" Ref="U21"  Part="1" 
-<<<<<<< HEAD:Controls-LightingPCB/ShiftReg.sch
 AR Path="/5F78B6DA/5F79C078" Ref="U?"  Part="1" 
-=======
-AR Path="/5F78BF30/5F79C078" Ref="U?"  Part="1" 
->>>>>>> b79ea8a988a011a97927261fb1498ef58dfa7e8f:ShiftReg.sch
 F 0 "U?" H 6400 3100 50  0000 C CNN
 F 1 "MCP23S17_SO" H 6400 3000 50  0000 C CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 6050 3100 50  0001 L CNN
