@@ -1,2 +1,8 @@
 (fp_lib_table
+  (lib (name UTSVT_Connectors)(type KiCad)(uri C:/Users/Eric/Documents/GitHub/Controls-LightingPCB/UTSVT-KiCadLibraries/UTSVT_Connectors.pretty)(options "")(descr ""))
+  (lib (name UTSVT_ICs)(type KiCad)(uri C:/Users/Eric/Documents/GitHub/Controls-LightingPCB/UTSVT-KiCadLibraries/UTSVT_ICs.pretty)(options "")(descr ""))
+  (lib (name UTSVT_Mechanical)(type KiCad)(uri C:/Users/Eric/Documents/GitHub/Controls-LightingPCB/UTSVT-KiCadLibraries/UTSVT_Mechanical.pretty)(options "")(descr ""))
+  (lib (name UTSVT_Passive)(type KiCad)(uri C:/Users/Eric/Documents/GitHub/Controls-LightingPCB/UTSVT-KiCadLibraries/UTSVT_Passive.pretty)(options "")(descr ""))
+  (lib (name UTSVT_Power)(type KiCad)(uri C:/Users/Eric/Documents/GitHub/Controls-LightingPCB/UTSVT-KiCadLibraries/UTSVT_Power.pretty)(options "")(descr ""))
+  (lib (name UTSVT_Special)(type KiCad)(uri C:/Users/Eric/Documents/GitHub/Controls-LightingPCB/UTSVT-KiCadLibraries/UTSVT_Special.pretty)(options "")(descr ""))
 )
