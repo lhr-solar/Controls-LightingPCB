@@ -413,10 +413,6 @@ Text Label 4350 4200 0    50   ~ 0
 IP
 Text Label 4350 4600 0    50   ~ 0
 IM
-Text Label 7150 4350 2    50   ~ 0
-UART-Tx
-Text Label 7150 4450 2    50   ~ 0
-UART_Rx
 $Sheet
 S 1750 1500 650  800 
 U 5F78B3EB
@@ -444,70 +440,11 @@ Wire Wire Line
 	2800 2100 2400 2100
 Wire Wire Line
 	2400 2200 2800 2200
-$Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J3
-U 1 1 5F87CE03
-P 7800 4350
-F 0 "J3" H 7850 3625 50  0000 C CNN
-F 1 "Gecko_Cable" H 7850 3716 50  0000 C CNN
-F 2 "UTSVT_Connectors:ribbon_cable_right_2x10" H 7800 4350 50  0001 C CNN
-F 3 "~" H 7800 4350 50  0001 C CNN
-	1    7800 4350
-	-1   0    0    1   
-$EndComp
-NoConn ~ 7500 3950
-NoConn ~ 7500 4050
-NoConn ~ 7500 4150
-NoConn ~ 7500 4250
-NoConn ~ 7500 4550
-NoConn ~ 7500 4650
-NoConn ~ 7500 4750
-NoConn ~ 8000 4650
-NoConn ~ 8000 4550
-NoConn ~ 8000 4450
-NoConn ~ 8000 4350
-NoConn ~ 8000 4250
-NoConn ~ 8000 4150
-NoConn ~ 8000 4050
-NoConn ~ 8000 3950
-NoConn ~ 8000 3850
-Wire Wire Line
-	7500 4450 6800 4450
-Wire Wire Line
-	6800 4350 7500 4350
-$Comp
-L power:GND #PWR0112
-U 1 1 5F8A761E
-P 8200 4850
-F 0 "#PWR0112" H 8200 4600 50  0001 C CNN
-F 1 "GND" H 8205 4677 50  0000 C CNN
-F 2 "" H 8200 4850 50  0001 C CNN
-F 3 "" H 8200 4850 50  0001 C CNN
-	1    8200 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0113
-U 1 1 5F8A7AF6
-P 7300 3750
-F 0 "#PWR0113" H 7300 3600 50  0001 C CNN
-F 1 "+3.3V" H 7315 3923 50  0000 C CNN
-F 2 "" H 7300 3750 50  0001 C CNN
-F 3 "" H 7300 3750 50  0001 C CNN
-	1    7300 3750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 3750 7300 3850
-Wire Wire Line
-	7300 3850 7500 3850
-Wire Wire Line
-	8000 4750 8200 4750
-Wire Wire Line
-	8200 4750 8200 4850
 Wire Wire Line
 	6000 3350 6000 3450
 Connection ~ 6000 3450
 Wire Wire Line
 	6000 3450 6100 3450
+NoConn ~ 6800 4350
+NoConn ~ 6800 4450
 $EndSCHEMATC
