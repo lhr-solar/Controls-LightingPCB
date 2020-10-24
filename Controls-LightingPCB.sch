@@ -447,4 +447,48 @@ Wire Wire Line
 	6000 3450 6100 3450
 NoConn ~ 6800 4350
 NoConn ~ 6800 4450
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F95A591
+P 7650 4900
+F 0 "H4" H 7750 4946 50  0000 L CNN
+F 1 "MountingHole" H 7750 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7650 4900 50  0001 C CNN
+F 3 "~" H 7650 4900 50  0001 C CNN
+	1    7650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F95AB20
+P 7650 4650
+F 0 "H3" H 7750 4696 50  0000 L CNN
+F 1 "MountingHole" H 7750 4605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7650 4650 50  0001 C CNN
+F 3 "~" H 7650 4650 50  0001 C CNN
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F95AF4E
+P 7650 4400
+F 0 "H2" H 7750 4446 50  0000 L CNN
+F 1 "MountingHole" H 7750 4355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7650 4400 50  0001 C CNN
+F 3 "~" H 7650 4400 50  0001 C CNN
+	1    7650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F95B613
+P 7650 4150
+F 0 "H1" H 7750 4196 50  0000 L CNN
+F 1 "MountingHole" H 7750 4105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7650 4150 50  0001 C CNN
+F 3 "~" H 7650 4150 50  0001 C CNN
+	1    7650 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
