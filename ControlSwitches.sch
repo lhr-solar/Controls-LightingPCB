@@ -338,8 +338,6 @@ F 3 "~" H 5600 5100 50  0001 C CNN
 $EndComp
 Text Label 6050 5100 2    50   ~ 0
 Backup
-Text Notes 7400 5150 0    50   ~ 0
-TODO: Check to make sure\nthat all these switches have\nthe same "on" position.
 Wire Wire Line
 	5150 4050 5400 4050
 Wire Wire Line
