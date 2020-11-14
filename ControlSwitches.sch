@@ -22,7 +22,7 @@ AR Path="/5F958945/5F95FCE0" Ref="SW2"  Part="1"
 AR Path="/5F78B3EB/5F95FCE0" Ref="SW2"  Part="1" 
 F 0 "SW2" H 4000 2875 50  0000 C CNN
 F 1 "CRUISE_SET" H 4000 2966 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 4000 3200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 4000 3200 50  0001 C CNN
 F 3 "~" H 4000 3200 50  0001 C CNN
 	1    4000 3200
 	-1   0    0    1   
@@ -89,7 +89,7 @@ AR Path="/5F958945/5F95FCFE" Ref="SW3"  Part="1"
 AR Path="/5F78B3EB/5F95FCFE" Ref="SW3"  Part="1" 
 F 0 "SW3" H 4000 3825 50  0000 C CNN
 F 1 "CRUISE" H 4000 3916 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 4000 4150 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 4000 4150 50  0001 C CNN
 F 3 "~" H 4000 4150 50  0001 C CNN
 	1    4000 4150
 	-1   0    0    1   
@@ -156,7 +156,7 @@ AR Path="/5F958945/5F95FD1C" Ref="SW1"  Part="1"
 AR Path="/5F78B3EB/5F95FD1C" Ref="SW1"  Part="1" 
 F 0 "SW1" H 3950 4775 50  0000 C CNN
 F 1 "HAZARD" H 3950 4866 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 3950 5100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 3950 5100 50  0001 C CNN
 F 3 "~" H 3950 5100 50  0001 C CNN
 	1    3950 5100
 	-1   0    0    1   
@@ -229,7 +229,7 @@ AR Path="/5F958945/5F95FD3D" Ref="SW7"  Part="1"
 AR Path="/5F78B3EB/5F95FD3D" Ref="SW7"  Part="1" 
 F 0 "SW7" H 7500 3825 50  0000 C CNN
 F 1 "TURN_SIGNAL_SW" H 7500 3916 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 7500 4150 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 7500 4150 50  0001 C CNN
 F 3 "~" H 7500 4150 50  0001 C CNN
 	1    7500 4150
 	1    0    0    1   
@@ -269,7 +269,7 @@ AR Path="/5F958945/5F95FD4F" Ref="SW4"  Part="1"
 AR Path="/5F78B3EB/5F95FD4F" Ref="SW4"  Part="1" 
 F 0 "SW4" H 5600 2875 50  0000 C CNN
 F 1 "F/R_SW" H 5600 2966 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 5600 3200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 5600 3200 50  0001 C CNN
 F 3 "~" H 5600 3200 50  0001 C CNN
 	1    5600 3200
 	-1   0    0    1   
@@ -331,7 +331,7 @@ AR Path="/5F958945/5F95FD6B" Ref="SW6"  Part="1"
 AR Path="/5F78B3EB/5F95FD6B" Ref="SW6"  Part="1" 
 F 0 "SW6" H 5600 4775 50  0000 C CNN
 F 1 "BACKUP_SW" H 5600 4866 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 5600 5100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 5600 5100 50  0001 C CNN
 F 3 "~" H 5600 5100 50  0001 C CNN
 	1    5600 5100
 	-1   0    0    1   
@@ -385,7 +385,7 @@ AR Path="/5F958945/5F95FD88" Ref="SW5"  Part="1"
 AR Path="/5F78B3EB/5F95FD88" Ref="SW5"  Part="1" 
 F 0 "SW5" H 5600 3825 50  0000 C CNN
 F 1 "HEADLIGHT_SW" H 5600 3916 50  0000 C CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x3xP3.00mm_PolarizingPeg_Vertical" H 5600 4150 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 5600 4150 50  0001 C CNN
 F 3 "~" H 5600 4150 50  0001 C CNN
 	1    5600 4150
 	-1   0    0    1   
