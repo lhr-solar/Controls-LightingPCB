@@ -401,7 +401,7 @@ AR Path="/5F958945/5F95FD8F" Ref="J6"  Part="1"
 AR Path="/5F78B3EB/5F95FD8F" Ref="J2"  Part="1" 
 F 0 "J2" H 6330 5092 50  0000 L CNN
 F 1 "Backup" H 6330 5001 50  0000 L CNN
-F 2 "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical" H 6250 5100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 6250 5100 50  0001 C CNN
 F 3 "~" H 6250 5100 50  0001 C CNN
 	1    6250 5100
 	1    0    0    -1  
