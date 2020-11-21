@@ -144,8 +144,6 @@ F 3 "" H 3900 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 4250 7900 4350
-Wire Wire Line
 	7400 4250 7400 4350
 Wire Wire Line
 	5900 4250 5900 4350
@@ -178,10 +176,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3250 7400 3950
 Wire Wire Line
-	3600 3150 7900 3150
-Wire Wire Line
-	7900 3150 7900 3950
-Wire Wire Line
 	3600 3050 8400 3050
 Wire Wire Line
 	8400 3050 8400 3950
@@ -204,16 +198,9 @@ Connection ~ 5400 4800
 Connection ~ 5900 4800
 Wire Wire Line
 	7400 4650 7400 4800
-Wire Wire Line
-	7900 4650 7900 4800
-Wire Wire Line
-	7900 4800 7400 4800
 Connection ~ 7400 4800
 Wire Wire Line
 	8400 4650 8400 4800
-Wire Wire Line
-	8400 4800 7900 4800
-Connection ~ 7900 4800
 Wire Wire Line
 	3900 2150 3900 2050
 Wire Wire Line
@@ -222,8 +209,6 @@ Wire Wire Line
 	4900 2150 3900 2150
 Text HLabel 3600 3050 0    50   Input ~ 0
 M_CNCTR
-Text HLabel 3600 3150 0    50   Input ~ 0
-RSVD_LED
 Text HLabel 3600 3450 0    50   Input ~ 0
 Headlight_ON
 Text HLabel 3600 3650 0    50   Input ~ 0
@@ -266,19 +251,6 @@ F 3 "~" H 8400 4100 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5F7BCB8B
-P 7900 4100
-AR Path="/5F7BCB8B" Ref="R?"  Part="1" 
-AR Path="/5F7A71E1/5F7BCB8B" Ref="R9"  Part="1" 
-F 0 "R9" H 7970 4146 50  0000 L CNN
-F 1 "330R" H 7970 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 4100 50  0001 C CNN
-F 3 "~" H 7900 4100 50  0001 C CNN
-	1    7900 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 5F7BCB85
 P 7400 4100
 AR Path="/5F7BCB85" Ref="R?"  Part="1" 
@@ -301,19 +273,6 @@ F 1 "M_CNCTR" V 8348 4383 50  0000 R CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 8400 4500 50  0001 C CNN
 F 3 "~" H 8400 4500 50  0001 C CNN
 	1    8400 4500
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F7BCB61
-P 7900 4500
-AR Path="/5F7BCB61" Ref="D?"  Part="1" 
-AR Path="/5F7A71E1/5F7BCB61" Ref="D9"  Part="1" 
-F 0 "D9" V 7939 4383 50  0000 R CNN
-F 1 "RSVD_LED" V 7848 4383 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 7900 4500 50  0001 C CNN
-F 3 "~" H 7900 4500 50  0001 C CNN
-	1    7900 4500
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -392,4 +351,6 @@ F 3 "~" H 6900 2400 50  0001 C CNN
 	1    6900 2400
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 4800 8400 4800
 $EndSCHEMATC

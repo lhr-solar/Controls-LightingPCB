@@ -544,4 +544,60 @@ Text HLabel 8800 4050 2    50   Output ~ 0
 LEFT_SW
 Text HLabel 8800 4250 2    50   Output ~ 0
 RIGHT_SW
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5FC0BDC6
+P 8050 5050
+AR Path="/5FC0BDC6" Ref="SW?"  Part="1" 
+AR Path="/5F958945/5FC0BDC6" Ref="SW?"  Part="1" 
+AR Path="/5F78B3EB/5FC0BDC6" Ref="SW?"  Part="1" 
+F 0 "SW?" H 8050 4725 50  0000 C CNN
+F 1 "REGEN_SW" H 8050 4816 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal" H 8050 5050 50  0001 C CNN
+F 3 "~" H 8050 5050 50  0001 C CNN
+	1    8050 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC0BDCC
+P 7600 4900
+AR Path="/5FC0BDCC" Ref="#PWR?"  Part="1" 
+AR Path="/5F958945/5FC0BDCC" Ref="#PWR?"  Part="1" 
+AR Path="/5F78B3EB/5FC0BDCC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7600 4750 50  0001 C CNN
+F 1 "+3.3V" H 7615 5073 50  0000 C CNN
+F 2 "" H 7600 4900 50  0001 C CNN
+F 3 "" H 7600 4900 50  0001 C CNN
+	1    7600 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4900 7600 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5FC0BDD3
+P 7600 5200
+AR Path="/5FC0BDD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F958945/5FC0BDD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F78B3EB/5FC0BDD3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7600 4950 50  0001 C CNN
+F 1 "GND" H 7605 5027 50  0000 C CNN
+F 2 "" H 7600 5200 50  0001 C CNN
+F 3 "" H 7600 5200 50  0001 C CNN
+	1    7600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5200 7600 5150
+Wire Wire Line
+	7600 5150 7850 5150
+Wire Wire Line
+	8250 5050 8750 5050
+Text Label 8750 5050 2    50   ~ 0
+REGEN_SW
+Wire Wire Line
+	7600 4950 7850 4950
+Text HLabel 8750 5050 2    50   Output ~ 0
+REGEN_SW
 $EndSCHEMATC

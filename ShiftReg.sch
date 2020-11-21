@@ -86,7 +86,7 @@ Headlight_ON
 Text HLabel 7200 3400 2    50   BiDi ~ 0
 M_CNCTR
 Text HLabel 7200 4900 2    50   BiDi ~ 0
-RSVD_LED
+REGEN_SW
 Text HLabel 7200 3500 2    50   BiDi ~ 0
 CTRL_FAULT
 Text HLabel 7200 3700 2    50   BiDi ~ 0
@@ -116,7 +116,7 @@ LEFT_SW
 Text HLabel 7200 4800 2    50   BiDi ~ 0
 RIGHT_SW
 Text Label 7200 4900 2    50   ~ 0
-RSVD_LED
+REGEN_SW
 Wire Wire Line
 	6550 4900 7200 4900
 Text Label 7200 3400 2    50   ~ 0
