@@ -548,4 +548,26 @@ Wire Wire Line
 	5950 4350 7500 4350
 Wire Wire Line
 	5950 4450 7500 4450
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO?
+U 1 1 5FD2EAFC
+P 1850 3150
+F 0 "LOGO?" H 1850 3300 50  0001 C CNN
+F 1 "Logo_Placeholder" H 1990 3150 50  0000 L CNN
+F 2 "" H 1850 3225 50  0001 C CNN
+F 3 "" H 1850 3225 50  0001 C CNN
+	1    1850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO?
+U 1 1 5FD2F351
+P 1850 2850
+F 0 "LOGO?" H 1850 3000 50  0001 C CNN
+F 1 "Logo_Placeholder" H 1990 2850 50  0000 L CNN
+F 2 "" H 1850 2925 50  0001 C CNN
+F 3 "" H 1850 2925 50  0001 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -630,4 +630,8 @@ Wire Wire Line
 Connection ~ 7950 4700
 Wire Wire Line
 	7950 4700 8800 4700
+Text Label 8800 4900 2    50   ~ 0
+FOR_SW
+Text Label 8800 4700 2    50   ~ 0
+REV_SW
 $EndSCHEMATC

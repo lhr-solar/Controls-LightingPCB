@@ -35,7 +35,7 @@ Text Label 7200 4600 2    50   ~ 0
 Headlight_SW
 Text Label 7200 4500 2    50   ~ 0
 FOR_SW
-Text Label 7200 4400 2    50   ~ 0
+Text Label 7200 4000 2    50   ~ 0
 HZD_SW
 Text Label 7200 4300 2    50   ~ 0
 CRUZ_EN
@@ -99,7 +99,7 @@ Text HLabel 7200 4200 2    50   BiDi ~ 0
 CRUZ_ST
 Text HLabel 7200 4300 2    50   BiDi ~ 0
 CRUZ_EN
-Text HLabel 7200 4400 2    50   BiDi ~ 0
+Text HLabel 7200 4000 2    50   BiDi ~ 0
 HZD_SW
 Text HLabel 7200 4500 2    50   BiDi ~ 0
 FOR_SW
@@ -211,8 +211,8 @@ Wire Wire Line
 	6550 4900 7200 4900
 Text HLabel 7200 4900 2    50   BiDi ~ 0
 REGEN_SW
-Text Label 6900 4000 0    50   ~ 0
+Text Label 6900 4400 0    50   ~ 0
 REV_SW
-Text HLabel 7200 4000 2    50   BiDi ~ 0
+Text HLabel 7200 4400 2    50   BiDi ~ 0
 REV_SW
 $EndSCHEMATC
