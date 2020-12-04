@@ -44,8 +44,8 @@ $EndSheet
 $Sheet
 S 2800 1500 1250 1750
 U 5F78B6DA
-F0 "ShiftReg" 50
-F1 "ShiftReg.sch" 50
+F0 "GPIOExpander" 50
+F1 "GPIOExpander.sch" 50
 F2 "M_CNCTR" B R 4050 1600 50 
 F3 "CTRL_FAULT" B R 4050 1800 50 
 F4 "RIGHT_BLINK" B R 4050 1900 50 
@@ -549,23 +549,23 @@ Wire Wire Line
 Wire Wire Line
 	5950 4450 7500 4450
 $Comp
-L utsvt-misc:Logo_Placeholder LOGO?
+L utsvt-misc:Logo_Placeholder LOGO2
 U 1 1 5FD2EAFC
 P 1850 3150
-F 0 "LOGO?" H 1850 3300 50  0001 C CNN
+F 0 "LOGO2" H 1850 3300 50  0001 C CNN
 F 1 "Logo_Placeholder" H 1990 3150 50  0000 L CNN
-F 2 "" H 1850 3225 50  0001 C CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 1850 3225 50  0001 C CNN
 F 3 "" H 1850 3225 50  0001 C CNN
 	1    1850 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-misc:Logo_Placeholder LOGO?
+L utsvt-misc:Logo_Placeholder LOGO1
 U 1 1 5FD2F351
 P 1850 2850
-F 0 "LOGO?" H 1850 3000 50  0001 C CNN
+F 0 "LOGO1" H 1850 3000 50  0001 C CNN
 F 1 "Logo_Placeholder" H 1990 2850 50  0000 L CNN
-F 2 "" H 1850 2925 50  0001 C CNN
+F 2 "UTSVT_Special:Hallock_Image_Small" H 1850 2925 50  0001 C CNN
 F 3 "" H 1850 2925 50  0001 C CNN
 	1    1850 2850
 	1    0    0    -1  
