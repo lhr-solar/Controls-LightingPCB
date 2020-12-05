@@ -299,7 +299,7 @@ Connection ~ 8750 3200
 Wire Wire Line
 	8750 3200 8550 3200
 $Comp
-L utsvt-power-regulators:RI3-1205S U4
+L Controls-LightingPCB-rescue:RI3-1205S-utsvt-power-regulators U4
 U 1 1 5C38C4FE
 P 4500 3200
 F 0 "U4" H 4500 3365 50  0000 C CNN

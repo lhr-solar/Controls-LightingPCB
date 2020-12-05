@@ -133,7 +133,7 @@ Wire Wire Line
 	4500 4500 4600 4500
 NoConn ~ 4600 4400
 $Comp
-L utsvt-chips:HX1188FNL U2
+L Controls-LightingPCB-rescue:HX1188FNL-utsvt-chips U2
 U 1 1 5F8067EF
 P 5200 4200
 F 0 "U2" H 5200 4365 50  0000 C CNN
@@ -144,7 +144,7 @@ F 3 "https://www.mouser.com/datasheet/2/336/HX1188NL-515471.pdf" H 5200 4200 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:LTC6820 U1
+L Controls-LightingPCB-rescue:LTC6820-utsvt-chips U1
 U 1 1 5F8059C6
 P 5200 2650
 F 0 "U1" H 5200 1600 50  0000 C CNN
@@ -549,7 +549,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 4450 7500 4450
 $Comp
-L utsvt-misc:Logo_Placeholder LOGO2
+L Controls-LightingPCB-rescue:Logo_Placeholder-utsvt-misc LOGO2
 U 1 1 5FD2EAFC
 P 1850 3150
 F 0 "LOGO2" H 1850 3300 50  0001 C CNN
@@ -560,7 +560,7 @@ F 3 "" H 1850 3225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-misc:Logo_Placeholder LOGO1
+L Controls-LightingPCB-rescue:Logo_Placeholder-utsvt-misc LOGO1
 U 1 1 5FD2F351
 P 1850 2850
 F 0 "LOGO1" H 1850 3000 50  0001 C CNN
