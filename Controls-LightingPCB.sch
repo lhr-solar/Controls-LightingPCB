@@ -81,12 +81,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0104
 U 1 1 5F7E142C
-P 7450 4100
-F 0 "#PWR0104" H 7450 3950 50  0001 C CNN
-F 1 "+12V" H 7465 4273 50  0000 C CNN
-F 2 "" H 7450 4100 50  0001 C CNN
-F 3 "" H 7450 4100 50  0001 C CNN
-	1    7450 4100
+P 7450 4200
+F 0 "#PWR0104" H 7450 4050 50  0001 C CNN
+F 1 "+12V" H 7465 4373 50  0000 C CNN
+F 2 "" H 7450 4200 50  0001 C CNN
+F 3 "" H 7450 4200 50  0001 C CNN
+	1    7450 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -516,34 +516,17 @@ Wire Wire Line
 Wire Wire Line
 	3500 3750 3500 3650
 Wire Wire Line
-	7450 4100 7450 4150
+	7450 4200 7450 4250
 Wire Wire Line
 	7450 4550 7450 4600
 Wire Wire Line
 	2400 2300 2800 2300
 Wire Wire Line
 	2400 2400 2800 2400
-$Comp
-L Connector_Generic:Conn_01x05 J1
-U 1 1 5FCAAC2B
-P 7700 4350
-F 0 "J1" H 7780 4392 50  0000 L CNN
-F 1 "MinionConn" H 7780 4301 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal" H 7700 4350 50  0001 C CNN
-F 3 "~" H 7700 4350 50  0001 C CNN
-	1    7700 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7450 4150 7500 4150
+	7450 4250 7500 4250
 Wire Wire Line
 	7500 4550 7450 4550
-Wire Wire Line
-	7500 4250 7150 4250
-Wire Wire Line
-	7150 4250 7150 1700
-Wire Wire Line
-	7150 1700 4900 1700
 Wire Wire Line
 	5950 4350 7500 4350
 Wire Wire Line
@@ -570,4 +553,30 @@ F 3 "" H 1850 2925 50  0001 C CNN
 	1    1850 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FCC2338
+P 7700 4350
+F 0 "J1" H 7780 4342 50  0000 L CNN
+F 1 "MinionConn" H 7780 4251 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal" H 7700 4350 50  0001 C CNN
+F 3 "~" H 7700 4350 50  0001 C CNN
+	1    7700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FCC52AA
+P 5250 1650
+F 0 "#PWR?" H 5250 1500 50  0001 C CNN
+F 1 "+3.3V" H 5265 1823 50  0000 C CNN
+F 2 "" H 5250 1650 50  0001 C CNN
+F 3 "" H 5250 1650 50  0001 C CNN
+	1    5250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1700 5250 1700
+Wire Wire Line
+	5250 1700 5250 1650
 $EndSCHEMATC
