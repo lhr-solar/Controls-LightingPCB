@@ -262,7 +262,7 @@ U 1 1 5FCC2338
 P 9650 4750
 F 0 "J1" H 9730 4742 50  0000 L CNN
 F 1 "MinionConn" H 9730 4651 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal" H 9650 4750 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal" H 9650 4750 50  0001 C CNN
 F 3 "~" H 9650 4750 50  0001 C CNN
 	1    9650 4750
 	1    0    0    -1  
