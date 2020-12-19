@@ -21,7 +21,7 @@ Text Label 5300 3250 2    50   ~ 0
 Headlight_SW
 Text Label 5300 3150 2    50   ~ 0
 FOR_SW
-Text Label 5300 2650 2    50   ~ 0
+Text Label 5300 2750 2    50   ~ 0
 HZD_SW
 Text Label 5300 2950 2    50   ~ 0
 CRUZ_EN
@@ -29,14 +29,10 @@ Text Label 5300 2850 2    50   ~ 0
 CRUZ_ST
 Text Label 5300 1950 2    50   ~ 0
 A_CNCTR
-Wire Wire Line
-	4650 2650 5300 2650
 Text Label 5300 2250 2    50   ~ 0
 LEFT_BLINK
 Text Label 5300 2350 2    50   ~ 0
 RIGHT_BLINK
-Text Label 5300 2550 2    50   ~ 0
-BPS_FAULT
 Text Label 5300 2150 2    50   ~ 0
 CTRL_FAULT
 Text Label 5300 2450 2    50   ~ 0
@@ -182,26 +178,21 @@ Wire Wire Line
 	4650 2950 5500 2950
 Wire Wire Line
 	4650 2850 5500 2850
-Wire Wire Line
-	5300 2650 5300 2750
-Wire Wire Line
-	5300 2750 5500 2750
 $Sheet
-S 6500 1750 650  900 
+S 6500 1750 650  1050
 U 5F7A71E1
 F0 "ControlLEDs" 50
 F1 "ControlLEDs.sch" 50
-F2 "M_CNCTR" O L 6500 2050 50 
-F3 "A_CNCTR" O L 6500 1950 50 
-F4 "CTRL_FAULT" O L 6500 2150 50 
-F5 "RIGHT_BLINK" O L 6500 2350 50 
-F6 "Headlight_ON" O L 6500 2450 50 
-F7 "BPS_FAULT" O L 6500 2550 50 
-F8 "LEFT_BLINK" O L 6500 2250 50 
-F9 "BPS_PWR" O R 7150 1850 50 
+F2 "M_CNCTR" I L 6500 2050 50 
+F3 "A_CNCTR" I L 6500 1950 50 
+F4 "CTRL_FAULT" I L 6500 2150 50 
+F5 "RIGHT_BLINK" I L 6500 2350 50 
+F6 "Headlight_ON" I L 6500 2450 50 
+F7 "LEFT_BLINK" I L 6500 2250 50 
+F8 "BPS_PWR" I R 7150 1850 50 
+F9 "BPS_FAULT-" I R 7150 2700 50 
+F10 "BPS_FAULT+" I R 7150 2600 50 
 $EndSheet
-Wire Wire Line
-	4650 2550 6500 2550
 Wire Wire Line
 	4650 2450 6500 2450
 Wire Wire Line
@@ -257,24 +248,16 @@ SCK
 Text Label 3700 5100 0    50   ~ 0
 CS
 $Comp
-L Connector_Generic:Conn_01x05 J1
+L Connector_Generic:Conn_01x07 J1
 U 1 1 5FCC2338
 P 9650 4750
 F 0 "J1" H 9730 4742 50  0000 L CNN
 F 1 "MinionConn" H 9730 4651 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal" H 9650 4750 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0700_1x07_P3.00mm_Horizontal" H 9650 4750 50  0001 C CNN
 F 3 "~" H 9650 4750 50  0001 C CNN
 	1    9650 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 4950 9400 4950
-Wire Wire Line
-	9400 4550 9450 4550
-Wire Wire Line
-	9400 4950 9400 5000
-Wire Wire Line
-	9400 4500 9400 4550
 Wire Wire Line
 	5250 5400 5350 5400
 Connection ~ 5250 5400
@@ -511,23 +494,23 @@ Wire Wire Line
 $Comp
 L power:+12V #PWR0104
 U 1 1 5F7E142C
-P 9400 4500
-F 0 "#PWR0104" H 9400 4350 50  0001 C CNN
-F 1 "+12V" H 9415 4673 50  0000 C CNN
-F 2 "" H 9400 4500 50  0001 C CNN
-F 3 "" H 9400 4500 50  0001 C CNN
-	1    9400 4500
+P 9400 4400
+F 0 "#PWR0104" H 9400 4250 50  0001 C CNN
+F 1 "+12V" H 9415 4573 50  0000 C CNN
+F 2 "" H 9400 4400 50  0001 C CNN
+F 3 "" H 9400 4400 50  0001 C CNN
+	1    9400 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0103
 U 1 1 5F7E16B8
-P 9400 5000
-F 0 "#PWR0103" H 9400 4800 50  0001 C CNN
-F 1 "GNDPWR" H 9404 4846 50  0000 C CNN
-F 2 "" H 9400 4950 50  0001 C CNN
-F 3 "" H 9400 4950 50  0001 C CNN
-	1    9400 5000
+P 9400 5100
+F 0 "#PWR0103" H 9400 4900 50  0001 C CNN
+F 1 "GNDPWR" H 9404 4946 50  0000 C CNN
+F 2 "" H 9400 5050 50  0001 C CNN
+F 3 "" H 9400 5050 50  0001 C CNN
+	1    9400 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -616,18 +599,16 @@ F 3 "" H 7700 3850 50  0001 C CNN
 	1    7700 3850
 	1    0    0    -1  
 $EndComp
-Text Label 7350 1850 0    50   ~ 0
+Text Label 7700 1850 2    50   ~ 0
 BPS_PWR
 Wire Wire Line
 	7150 1850 7700 1850
-Text Label 9050 4650 0    50   ~ 0
+Text Label 8950 4950 0    50   ~ 0
 BPS_PWR
 Wire Wire Line
 	8300 4750 9450 4750
 Wire Wire Line
 	8300 4850 9450 4850
-Wire Wire Line
-	9050 4650 9450 4650
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5F95A591
@@ -677,7 +658,7 @@ L Controls-LightingPCB-rescue:Logo_Placeholder-utsvt-misc LOGO2
 U 1 1 5FD2EAFC
 P 8700 1900
 F 0 "LOGO2" H 8700 2050 50  0001 C CNN
-F 1 "Logo_Placeholder" H 8840 1900 50  0000 L CNN
+F 1 "UTSVT Logo" H 8840 1900 50  0000 L CNN
 F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 8700 1975 50  0001 C CNN
 F 3 "" H 8700 1975 50  0001 C CNN
 	1    8700 1900
@@ -688,10 +669,43 @@ L Controls-LightingPCB-rescue:Logo_Placeholder-utsvt-misc LOGO1
 U 1 1 5FD2F351
 P 8700 1600
 F 0 "LOGO1" H 8700 1750 50  0001 C CNN
-F 1 "Logo_Placeholder" H 8840 1600 50  0000 L CNN
+F 1 "Dr. Hallock Logo" H 8840 1600 50  0000 L CNN
 F 2 "UTSVT_Special:Hallock_Image_Small" H 8700 1675 50  0001 C CNN
 F 3 "" H 8700 1675 50  0001 C CNN
 	1    8700 1600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9450 5050 9400 5050
+Wire Wire Line
+	9400 5050 9400 5100
+Wire Wire Line
+	9400 4400 9400 4450
+Wire Wire Line
+	9400 4450 9450 4450
+Wire Wire Line
+	4650 2550 4900 2550
+Wire Wire Line
+	4900 2550 4900 2750
+Wire Wire Line
+	4900 2750 5500 2750
+NoConn ~ 4650 2650
+Text Label 8950 4550 0    50   ~ 0
+BPS_FAULT+
+Text Label 8950 4650 0    50   ~ 0
+BPS_FAULT-
+Wire Wire Line
+	8950 4550 9450 4550
+Wire Wire Line
+	8950 4950 9450 4950
+Wire Wire Line
+	8950 4650 9450 4650
+Text Label 7700 2700 2    50   ~ 0
+BPS_FAULT-
+Text Label 7700 2600 2    50   ~ 0
+BPS_FAULT+
+Wire Wire Line
+	7150 2600 7700 2600
+Wire Wire Line
+	7150 2700 7700 2700
 $EndSCHEMATC
