@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9+dfsg1-1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -3751,7 +3751,7 @@
   (gr_text "Isha\nwas\nhere" (at 160.9 113.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "UTSVT - Controls\nMinion Board v1.0\nFall 2020" (at 165.5 54.1 180) (layer F.SilkS)
+  (gr_text "UTSVT - Controls\nMinion Board v1.1\nFall 2020" (at 165.5 54.1 180) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Dr. Gary Hallock" (at 131.3 85.1 270) (layer F.SilkS)
