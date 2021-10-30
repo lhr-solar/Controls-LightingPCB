@@ -225,8 +225,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 4900 3900 4900
 Wire Wire Line
-	3700 4800 3900 4800
-Wire Wire Line
 	3900 4700 3350 4700
 $Comp
 L power:GND #PWR0105
@@ -280,23 +278,7 @@ IP
 Wire Wire Line
 	5650 5400 5750 5400
 Wire Wire Line
-	5000 5400 5250 5400
-Connection ~ 5100 4900
-Wire Wire Line
 	5850 4900 5850 5000
-Wire Wire Line
-	5100 4900 5850 4900
-Connection ~ 5100 5000
-Wire Wire Line
-	5100 4900 5100 5000
-Wire Wire Line
-	5000 4900 5100 4900
-Wire Wire Line
-	5100 5000 5000 5000
-Wire Wire Line
-	5100 5100 5100 5000
-Wire Wire Line
-	5000 5100 5100 5100
 $Comp
 L power:GND #PWR0111
 U 1 1 5F84EE3E
@@ -721,4 +703,50 @@ F 3 "~" H 3000 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 2850 2700 2850
+$Comp
+L Device:R R24
+U 1 1 61595B5D
+P 2900 4500
+F 0 "R24" H 2970 4546 50  0000 L CNN
+F 1 "R" H 2970 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2830 4500 50  0001 C CNN
+F 3 "~" H 2900 4500 50  0001 C CNN
+	1    2900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4800 2900 4650
+Wire Wire Line
+	2900 4800 3900 4800
+$Comp
+L power:+3.3V #PWR028
+U 1 1 61599473
+P 2900 4250
+F 0 "#PWR028" H 2900 4100 50  0001 C CNN
+F 1 "+3.3V" H 2915 4423 50  0000 C CNN
+F 2 "" H 2900 4250 50  0001 C CNN
+F 3 "" H 2900 4250 50  0001 C CNN
+	1    2900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4350 2900 4250
+Wire Wire Line
+	5150 5000 5150 5400
+Wire Wire Line
+	5000 5000 5150 5000
+Wire Wire Line
+	5000 5400 5150 5400
+Wire Wire Line
+	5150 5400 5250 5400
+Connection ~ 5150 5400
+Wire Wire Line
+	5000 5100 5100 5100
+Wire Wire Line
+	5100 5100 5100 4900
+Wire Wire Line
+	5000 4900 5100 4900
+Wire Wire Line
+	5100 4900 5850 4900
+Connection ~ 5100 4900
 $EndSCHEMATC
