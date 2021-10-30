@@ -212,9 +212,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -235,9 +235,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 F
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -283,15 +283,15 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Interface_Expansion_MCP23S17_SO
+# Interface_Expansion_MCP23S17_SS
 #
-DEF Interface_Expansion_MCP23S17_SO U 0 40 Y Y 1 F N
+DEF Interface_Expansion_MCP23S17_SS U 0 40 Y Y 1 F N
 F0 "U" -450 950 50 H V C CNN
-F1 "Interface_Expansion_MCP23S17_SO" 0 0 50 H V C CNN
-F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" 200 -1000 50 H I L CNN
+F1 "Interface_Expansion_MCP23S17_SS" 0 0 50 H V C CNN
+F2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" 200 -1000 50 H I L CNN
 F3 "" 200 -1100 50 H I L CNN
 $FPLIST
- SOIC*7.5x17.9mm*P1.27mm*
+ SSOP*5.3x10.2mm*P0.65mm*
 $ENDFPLIST
 DRAW
 S -500 900 500 -900 0 1 10 f
@@ -368,7 +368,7 @@ F1 "Simulation_SPICE_DIODE" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
-F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
+F5 "D" 0 0 50 H I L CNN "Spice_Primitive"
 DRAW
 P 2 0 1 0 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N

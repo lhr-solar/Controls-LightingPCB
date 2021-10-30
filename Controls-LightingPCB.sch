@@ -133,20 +133,6 @@ NoConn ~ 3250 2550
 NoConn ~ 3250 2650
 Text Label 5000 3050 0    50   ~ 0
 REV_SW
-$Comp
-L Interface_Expansion:MCP23S17_SO U3
-U 1 1 5FDEB79C
-P 3950 2750
-AR Path="/5FDEB79C" Ref="U3"  Part="1" 
-AR Path="/5F768F42/5FDEB79C" Ref="U?"  Part="1" 
-AR Path="/5F78B6DA/5FDEB79C" Ref="U?"  Part="1" 
-F 0 "U3" H 4500 1750 50  0000 C CNN
-F 1 "MCP23S17_SO" H 4500 1650 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4150 1750 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4150 1650 50  0001 L CNN
-	1    3950 2750
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5500 2700 650  950 
 U 5F78B3EB
@@ -749,4 +735,15 @@ Wire Wire Line
 Wire Wire Line
 	5100 4900 5850 4900
 Connection ~ 5100 4900
+$Comp
+L Interface_Expansion:MCP23S17_SS U3
+U 1 1 617DED58
+P 3950 2750
+F 0 "U3" H 3950 4031 50  0000 C CNN
+F 1 "MCP23S17_SS" H 3950 3940 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 4150 1750 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4150 1650 50  0001 L CNN
+	1    3950 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
