@@ -278,23 +278,7 @@ IP
 Wire Wire Line
 	5650 5400 5750 5400
 Wire Wire Line
-	5000 5400 5250 5400
-Connection ~ 5100 4900
-Wire Wire Line
 	5850 4900 5850 5000
-Wire Wire Line
-	5100 4900 5850 4900
-Connection ~ 5100 5000
-Wire Wire Line
-	5100 4900 5100 5000
-Wire Wire Line
-	5000 4900 5100 4900
-Wire Wire Line
-	5100 5000 5000 5000
-Wire Wire Line
-	5100 5100 5100 5000
-Wire Wire Line
-	5000 5100 5100 5100
 $Comp
 L power:GND #PWR0111
 U 1 1 5F84EE3E
@@ -747,4 +731,22 @@ F 3 "" H 2900 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 4350 2900 4250
+Wire Wire Line
+	5150 5000 5150 5400
+Wire Wire Line
+	5000 5000 5150 5000
+Wire Wire Line
+	5000 5400 5150 5400
+Wire Wire Line
+	5150 5400 5250 5400
+Connection ~ 5150 5400
+Wire Wire Line
+	5000 5100 5100 5100
+Wire Wire Line
+	5100 5100 5100 4900
+Wire Wire Line
+	5000 4900 5100 4900
+Wire Wire Line
+	5100 4900 5850 4900
+Connection ~ 5100 4900
 $EndSCHEMATC
