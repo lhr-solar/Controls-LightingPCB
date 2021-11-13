@@ -26,17 +26,6 @@ F 3 "" H 3000 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 3600 3000 3650
-$Comp
-L Device:C C3
-U 1 1 5C35F7E4
-P 3650 3400
-F 0 "C3" H 3768 3446 50  0000 L CNN
-F 1 "10u" H 3768 3355 50  0000 L CNN
-F 2 "UTSVT_Passive:C_2220_5750Metric" H 3688 3250 50  0001 C CNN
-F 3 "~" H 3650 3400 50  0001 C CNN
-	1    3650 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 3600 3250 3600
 Wire Wire Line
@@ -44,36 +33,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3200 3250 3200
 Connection ~ 3000 3200
-Wire Wire Line
-	3650 3250 3650 3200
 Connection ~ 3250 3200
-Wire Wire Line
-	3650 3550 3650 3600
-Wire Wire Line
-	5150 3700 5150 3600
-Connection ~ 5150 3600
-Wire Wire Line
-	5450 3600 5150 3600
-Wire Wire Line
-	5150 3150 5150 3200
-Text HLabel 5550 3600 2    50   Output ~ 0
-GND
-Wire Wire Line
-	5550 3600 5450 3600
-Connection ~ 5450 3600
-Text HLabel 5550 3200 2    50   Output ~ 0
-+5V
-$Comp
-L power:+5V #PWR04
-U 1 1 5C376123
-P 5150 3150
-F 0 "#PWR04" H 5150 3000 50  0001 C CNN
-F 1 "+5V" H 5165 3323 50  0000 C CNN
-F 2 "" H 5150 3150 50  0001 C CNN
-F 3 "" H 5150 3150 50  0001 C CNN
-	1    5150 3150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5C37D606
@@ -87,32 +47,6 @@ F 3 "~" H 3450 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 3150 3250 3200
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5C37E6A3
-P 5450 3150
-F 0 "TP3" H 5508 3270 50  0000 L CNN
-F 1 "+5V_TP" H 5508 3179 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5650 3150 50  0001 C CNN
-F 3 "~" H 5650 3150 50  0001 C CNN
-	1    5450 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 3150 5450 3200
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5C37F6B1
-P 5450 3700
-F 0 "TP4" H 5392 3727 50  0000 R CNN
-F 1 "GND_TP" H 5392 3818 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5650 3700 50  0001 C CNN
-F 3 "~" H 5650 3700 50  0001 C CNN
-	1    5450 3700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5450 3700 5450 3600
 $Comp
 L power:GND #PWR07
 U 1 1 5C58D746
@@ -161,17 +95,6 @@ F 1 "+5V" H 6365 3073 50  0000 C CNN
 F 2 "" H 6350 2900 50  0001 C CNN
 F 3 "" H 6350 2900 50  0001 C CNN
 	1    6350 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5C3F3B1F
-P 5150 3700
-F 0 "#PWR05" H 5150 3450 50  0001 C CNN
-F 1 "GND" H 5155 3527 50  0000 C CNN
-F 2 "" H 5150 3700 50  0001 C CNN
-F 3 "" H 5150 3700 50  0001 C CNN
-	1    5150 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -299,39 +222,6 @@ Connection ~ 8750 3200
 Wire Wire Line
 	8750 3200 8550 3200
 $Comp
-L Controls-LightingPCB-rescue:RI3-1205S-utsvt-power-regulators U4
-U 1 1 5C38C4FE
-P 4500 3200
-F 0 "U4" H 4500 3365 50  0000 C CNN
-F 1 "RI3-1205S" H 4500 3274 50  0000 C CNN
-F 2 "UTSVT_ICs:RI3_DC_Converter" H 4500 3200 50  0001 C CNN
-F 3 "" H 4500 3200 50  0001 C CNN
-	1    4500 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 3500 4050 3500
-Wire Wire Line
-	3950 3300 4050 3300
-Wire Wire Line
-	4950 3300 5050 3300
-Wire Wire Line
-	5050 3300 5050 3200
-Wire Wire Line
-	4950 3500 5050 3500
-Wire Wire Line
-	5050 3500 5050 3600
-Wire Wire Line
-	5050 3600 5150 3600
-Wire Wire Line
-	5050 3200 5150 3200
-Connection ~ 5150 3200
-Wire Wire Line
-	5150 3200 5450 3200
-Connection ~ 5450 3200
-Wire Wire Line
-	5450 3200 5550 3200
-$Comp
 L Connector:TestPoint TP2
 U 1 1 5C82CEA3
 P 3250 3650
@@ -347,17 +237,6 @@ Wire Wire Line
 Text Notes 7100 4000 0    50   ~ 0
 +5V is already isolated so no need to isolate +3.3V
 $Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5F1EAFA2
-P 3950 3700
-F 0 "#FLG02" H 3950 3775 50  0001 C CNN
-F 1 "PWR_FLAG" H 3950 3873 50  0000 C CNN
-F 2 "" H 3950 3700 50  0001 C CNN
-F 3 "~" H 3950 3700 50  0001 C CNN
-	1    3950 3700
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F1F32D3
 P 3000 3200
@@ -370,36 +249,11 @@ F 3 "~" H 3000 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 3200 3000 3200
-Text Notes 4150 1850 0    100  ~ 20
-ISOLATED
-Text Notes 4650 2350 0    50   ~ 0
-Local GND\n(Internal)
-Text Notes 3900 2350 0    50   ~ 0
-Power GND\n(External)
 Text Notes 7200 4700 0    50   ~ 0
 Linear Regulator to step down +5V to +3.3V.\nAn isolated converter was not used for the +3.3V\nline because of price and space. May need to\nchange this to DC-DC converter if we really\nwant to make the BPS more energy efficient.
-Wire Notes Line
-	4500 2000 4500 4250
 Text Notes 3600 4600 0    50   ~ 0
 Isolated DC-DC Converter to step down +12V power\nto an isolated +5V. The input gnd (Power GND) is\ndifferent from the output gnd (Local GND)
-Wire Wire Line
-	3250 3200 3650 3200
-Connection ~ 3650 3200
-Wire Wire Line
-	3650 3200 3950 3200
-Wire Wire Line
-	3250 3600 3650 3600
 Connection ~ 3250 3600
-Connection ~ 3650 3600
-Wire Wire Line
-	3650 3600 3950 3600
-Wire Wire Line
-	3950 3200 3950 3300
-Connection ~ 3950 3600
-Wire Wire Line
-	3950 3600 3950 3700
-Wire Wire Line
-	3950 3500 3950 3600
 Wire Wire Line
 	6350 2900 6350 3100
 Text HLabel 2900 3200 0    50   Input ~ 0
