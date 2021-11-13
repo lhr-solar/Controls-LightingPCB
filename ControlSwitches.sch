@@ -663,4 +663,16 @@ Wire Wire Line
 	5350 5850 5350 5750
 Text Notes 5200 6400 0    50   ~ 0
 Does this work? Or should there be no pull down resistor\nand GNDPWR and it just floats when not connected? Or \ndoes it need to be SPDT?
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61A04CAB
+P 5800 5500
+F 0 "#FLG0102" H 5800 5575 50  0001 C CNN
+F 1 "PWR_FLAG" V 5800 5627 50  0000 L CNN
+F 2 "" H 5800 5500 50  0001 C CNN
+F 3 "~" H 5800 5500 50  0001 C CNN
+	1    5800 5500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5800 5500
 $EndSCHEMATC
