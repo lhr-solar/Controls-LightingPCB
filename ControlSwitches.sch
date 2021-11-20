@@ -155,22 +155,6 @@ Wire Wire Line
 Text Label 9150 3750 2    50   ~ 0
 RIGHT_SW
 $Comp
-L Switch:SW_SPST SW?
-U 1 1 5F95FD6B
-P 5350 5150
-AR Path="/5F95FD6B" Ref="SW?"  Part="1" 
-AR Path="/5F958945/5F95FD6B" Ref="SW6"  Part="1" 
-AR Path="/5F78B3EB/5F95FD6B" Ref="SW6"  Part="1" 
-F 0 "SW6" V 5400 4900 50  0000 C CNN
-F 1 "BACKUP_SW" V 5300 4850 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 5350 5150 50  0001 C CNN
-F 3 "~" H 5350 5150 50  0001 C CNN
-	1    5350 5150
-	0    -1   -1   0   
-$EndComp
-Text Label 5900 5400 2    50   ~ 0
-Backup
-$Comp
 L power:GND #PWR?
 U 1 1 5F95FD81
 P 2100 5850
@@ -198,38 +182,6 @@ F 3 "~" H 2100 5150 50  0001 C CNN
 	1    2100 5150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F95FD8F
-P 6100 5400
-AR Path="/5F95FD8F" Ref="J?"  Part="1" 
-AR Path="/5F958945/5F95FD8F" Ref="J6"  Part="1" 
-AR Path="/5F78B3EB/5F95FD8F" Ref="J2"  Part="1" 
-F 0 "J2" H 6180 5392 50  0000 L CNN
-F 1 "Backup" H 6180 5301 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" H 6100 5400 50  0001 C CNN
-F 3 "~" H 6100 5400 50  0001 C CNN
-	1    6100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5F95FD95
-P 5800 5550
-AR Path="/5F95FD95" Ref="#PWR?"  Part="1" 
-AR Path="/5F958945/5F95FD95" Ref="#PWR0138"  Part="1" 
-AR Path="/5F78B3EB/5F95FD95" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 5800 5350 50  0001 C CNN
-F 1 "GNDPWR" H 5804 5396 50  0000 C CNN
-F 2 "" H 5800 5500 50  0001 C CNN
-F 3 "" H 5800 5500 50  0001 C CNN
-	1    5800 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 5550 5800 5500
-Wire Wire Line
-	5800 5500 5900 5500
 $Comp
 L Device:R_US R?
 U 1 1 5F95FDAA
@@ -610,69 +562,6 @@ Wire Wire Line
 Connection ~ 3750 5400
 Wire Wire Line
 	3750 5750 3750 5850
-$Comp
-L power:+12V #PWR026
-U 1 1 5FE1F02E
-P 5350 4850
-F 0 "#PWR026" H 5350 4700 50  0001 C CNN
-F 1 "+12V" H 5365 5023 50  0000 C CNN
-F 2 "" H 5350 4850 50  0001 C CNN
-F 3 "" H 5350 4850 50  0001 C CNN
-	1    5350 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5FE23776
-P 5350 5600
-AR Path="/5FE23776" Ref="R?"  Part="1" 
-AR Path="/5F958945/5FE23776" Ref="R?"  Part="1" 
-AR Path="/5F78B3EB/5FE23776" Ref="R22"  Part="1" 
-F 0 "R22" H 5200 5550 50  0000 C CNN
-F 1 "10k" H 5200 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5390 5590 50  0001 C CNN
-F 3 "~" H 5350 5600 50  0001 C CNN
-F 4 "71-CRCW080510K0FKEAC " H 5350 5600 50  0001 C CNN "Mouser Part Number"
-	1    5350 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5FE24C12
-P 5350 5850
-AR Path="/5FE24C12" Ref="#PWR?"  Part="1" 
-AR Path="/5F958945/5FE24C12" Ref="#PWR?"  Part="1" 
-AR Path="/5F78B3EB/5FE24C12" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 5350 5650 50  0001 C CNN
-F 1 "GNDPWR" H 5354 5696 50  0000 C CNN
-F 2 "" H 5350 5800 50  0001 C CNN
-F 3 "" H 5350 5800 50  0001 C CNN
-	1    5350 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 4850 5350 4950
-Wire Wire Line
-	5350 5350 5350 5400
-Wire Wire Line
-	5350 5400 5900 5400
-Connection ~ 5350 5400
-Wire Wire Line
-	5350 5400 5350 5450
-Wire Wire Line
-	5350 5850 5350 5750
 Text Notes 5200 6400 0    50   ~ 0
 Does this work? Or should there be no pull down resistor\nand GNDPWR and it just floats when not connected? Or \ndoes it need to be SPDT?
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 61A04CAB
-P 5800 5500
-F 0 "#FLG0102" H 5800 5575 50  0001 C CNN
-F 1 "PWR_FLAG" V 5800 5627 50  0000 L CNN
-F 2 "" H 5800 5500 50  0001 C CNN
-F 3 "~" H 5800 5500 50  0001 C CNN
-	1    5800 5500
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5800 5500
 $EndSCHEMATC
