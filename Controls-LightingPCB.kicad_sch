@@ -705,6 +705,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 81419a5d-b036-42ce-ad16-bb29587db35a)
   )
+  (wire (pts (xy 187.96 123.19) (xy 200.66 123.19))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 84097444-716a-4875-b364-64e9438fdb77)
+  )
   (wire (pts (xy 187.96 130.81) (xy 200.66 130.81))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 845508b9-56c1-4df2-a04d-3336e932a8b5)
@@ -761,9 +765,9 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b1185dff-865b-48fd-9a93-50a1a30b66dc)
   )
-  (wire (pts (xy 187.96 123.19) (xy 200.66 123.19))
+  (wire (pts (xy 175.26 123.19) (xy 180.34 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b5a7058d-560a-46fd-a7e7-c9b8ac181327)
+    (uuid b866cc60-ba54-4ddc-ba73-041a37c2c80b)
   )
   (wire (pts (xy 82.55 72.39) (xy 80.01 72.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -850,7 +854,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5ee748ad-d720-4dcf-b44f-bf0a6b0b8608)
   )
-  (label "MISO" (at 187.96 123.19 0)
+  (label "MISO" (at 175.26 123.19 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6185be90-95d1-4450-a71a-d6bd8d06fefd)
   )
@@ -1245,10 +1249,25 @@
     (pin "1" (uuid f01aa3d6-0b17-4d57-8f9c-7c563c05a5db))
   )
 
+  (symbol (lib_id "Device:R") (at 184.15 123.19 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 502baeba-5eb0-4abb-aa89-c5aa74a6ea7f)
+    (property "Reference" "R1" (id 0) (at 184.15 125.73 90))
+    (property "Value" "60" (id 1) (at 184.15 128.27 90))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 184.15 124.968 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 184.15 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2be5d42-df5c-4a4a-8834-2bf8607644b3))
+    (pin "2" (uuid 90fa28c9-f9fd-49f1-8866-c2b4919ee438))
+  )
+
   (symbol (lib_id "power:GNDPWR") (at 196.85 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8ad00392-69a9-40d0-b325-4b4be8926d66)
-    (property "Reference" "#PWR?" (id 0) (at 196.85 143.51 0)
+    (property "Reference" "#PWR02" (id 0) (at 196.85 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (id 1) (at 196.723 143.51 0))
@@ -1385,14 +1404,23 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-00005f7a71e1/dfb91d3a-5384-4e08-9474-65c74d6855bd"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005f7a71e1/00000000-0000-0000-0000-000061a05cd3"
       (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f7a71e1/dfb91d3a-5384-4e08-9474-65c74d6855bd"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005fa7b897"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8ad00392-69a9-40d0-b325-4b4be8926d66"
+      (reference "#PWR02") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f7a71e1/69509d56-9bb2-4b10-9d93-838acc3bc5b3"
+      (reference "#PWR03") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f7a71e1/3d62aa06-2c96-43e9-b5af-467db78ccc9f"
+      (reference "#PWR04") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f78b3eb/00000000-0000-0000-0000-0000600a77a8"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
@@ -1487,15 +1515,6 @@
     (path "/00000000-0000-0000-0000-00005f78b3eb/00000000-0000-0000-0000-00005f95fdbe"
       (reference "#PWR0135") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f7a71e1/3d62aa06-2c96-43e9-b5af-467db78ccc9f"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005f7a71e1/69509d56-9bb2-4b10-9d93-838acc3bc5b3"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
-    )
-    (path "/8ad00392-69a9-40d0-b325-4b4be8926d66"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005fa72dea/00000000-0000-0000-0000-000061999fa9"
       (reference "C4") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -1549,6 +1568,9 @@
     )
     (path "/00000000-0000-0000-0000-00005fd2eafc"
       (reference "LOGO2") (unit 1) (value "UTSVT Logo") (footprint "UTSVT_Special:UTSVT_Logo_Symbol")
+    )
+    (path "/502baeba-5eb0-4abb-aa89-c5aa74a6ea7f"
+      (reference "R1") (unit 1) (value "60") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005f7a71e1/00000000-0000-0000-0000-00005f7bcba3"
       (reference "R2") (unit 1) (value "680") (footprint "Resistor_SMD:R_0805_2012Metric")
