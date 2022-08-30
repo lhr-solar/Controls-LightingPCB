@@ -433,14 +433,6 @@
     [
       "00000000-0000-0000-0000-00005f78b3eb",
       "ControlSwitches"
-    ],
-    [
-      "00000000-0000-0000-0000-00005fa72dea",
-      "PowerDist"
-    ],
-    [
-      "a5de2f6d-3e08-4e0f-8d50-a41b1042fae4",
-      "BlinkTimer"
     ]
   ],
   "text_variables": {}
