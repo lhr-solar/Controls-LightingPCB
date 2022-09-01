@@ -456,6 +456,10 @@
     (uuid fe4911d9-6679-4873-a51e-24464790eaa0)
   )
 
+  (text "Add Caps || Resistors" (at 72.39 140.97 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 842c1bf7-a1aa-4b9e-9f1b-176b610ae877)
+  )
   (text "Does this work? Or should there be no pull down resistor\nand GNDPWR and it just floats when not connected? Or \ndoes it need to be SPDT?"
     (at 132.08 162.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
