@@ -2638,6 +2638,16 @@
     (uuid ffa4e43b-bfd4-42ed-9e68-1c088ba62814)
   )
 
+  (text "Is this the same switch you'll be using for the \nturn signal switch SW5? (ie middle is floating)\nIf it is, I would use the same symbol\n- Hannah"
+    (at 138.43 165.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1d2e21aa-c80b-45c1-a530-b19b38d54671)
+  )
+  (text "Resistance values for these curr limiting resistors  \nwill be calculated in the future when the LEDs are selected"
+    (at 226.06 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3cd1ca54-876a-4df6-8500-19a372da4c45)
+  )
   (text "PowerDist\n" (at 15.24 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5f8efe68-7891-4ef0-912e-26e03e4d12ae)
@@ -2655,6 +2665,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8f6b998c-842a-49a7-9777-0e7fce6d919a)
   )
+  (text "Also might be a Manthan question but do you \nneed diodes for the individual right and left blink \ncontrol signals (the part only connected to the the\nturn signal switch? I don't think you do but \njust want to double check\n- Hannah"
+    (at 161.29 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a89a082f-9076-4680-909a-e452a3efcce7)
+  )
   (text "Testpoints\n" (at 29.21 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf9428a2-eb32-47c7-82c9-2f371abc8dbd)
@@ -2662,6 +2677,11 @@
   (text "5v clk signal\n" (at 137.795 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4163c77-b8bc-4125-937a-677be9781037)
+  )
+  (text "Might need to be a question for Manthan \nbut why is the ferrite bead only needed \nfor GNDPWR and not +12V?\n- Hannah"
+    (at 39.37 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cb81a946-0e3f-49fb-80d8-323e2a3e13e8)
   )
   (text "All curr limiting\nres should be 0 Ohm" (at 248.92 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
