@@ -3314,7 +3314,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 26.67 174.625 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 07a306c5-b9f0-4467-8d7f-e605a48e7675)
-    (property "Reference" "3V1" (id 0) (at 20.32 177.5714 0))
+    (property "Reference" "TP3" (id 0) (at 20.32 177.5714 0))
     (property "Value" "3V3_TP" (id 1) (at 20.32 175.26 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 21.59 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3458,7 +3458,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 25.4 161.925 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1555fceb-fb15-4a28-a934-05d7ad29c2f8)
-    (property "Reference" "GND1" (id 0) (at 19.05 164.8714 0))
+    (property "Reference" "TP2" (id 0) (at 19.05 164.8714 0))
     (property "Value" "GND_TP" (id 1) (at 19.05 162.56 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 20.32 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3507,7 +3507,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 255.27 127 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 21709f9f-a287-4a37-be4b-1b538a9f839a)
-    (property "Reference" "HEADLIGHT3" (id 0) (at 257.81 126.9999 0)
+    (property "Reference" "HEADLIGHT2" (id 0) (at 257.81 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "EXTERNAL_HDLT" (id 1) (at 257.81 129.5399 0)
@@ -3561,7 +3561,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 45.085 174.625 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 227898b7-62f2-4b23-b717-55fbeeaa9d4a)
-    (property "Reference" "RightBlink1" (id 0) (at 38.735 177.5714 0))
+    (property "Reference" "TP7" (id 0) (at 38.735 177.5714 0))
     (property "Value" "RIGHT_BLINK_TP" (id 1) (at 36.195 175.26 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 40.005 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3659,7 +3659,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 238.76 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3701f074-72ea-4e71-87c2-49dce8e5d57c)
-    (property "Reference" "Q?" (id 0) (at 247.65 100.33 90))
+    (property "Reference" "Q5" (id 0) (at 247.65 100.33 90))
     (property "Value" "2N7002" (id 1) (at 245.11 100.33 90))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 243.84 102.235 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
@@ -3690,7 +3690,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 255.27 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3c89205a-c203-442b-97fe-51aa7163ce7d)
-    (property "Reference" "HEADLIGHT2" (id 0) (at 257.81 119.3799 0)
+    (property "Reference" "HEADLIGHT1" (id 0) (at 257.81 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "EXTERNAL_HDLT" (id 1) (at 257.81 121.9199 0)
@@ -3811,7 +3811,7 @@
   (symbol (lib_id "power:GND") (at 63.5 46.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4ee35cd7-a605-41e4-92ae-b2b04e589ec3)
-    (property "Reference" "#PWR?" (id 0) (at 63.5 53.34 0)
+    (property "Reference" "#PWR0101" (id 0) (at 63.5 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 68.58 46.99 0)
@@ -3829,7 +3829,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 25.4 149.225 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 50289ba9-9fbc-4e54-a2ff-cc9b002b03dc)
-    (property "Reference" "GNDPWR1" (id 0) (at 19.05 152.1714 0))
+    (property "Reference" "TP1" (id 0) (at 19.05 152.1714 0))
     (property "Value" "GNDPWR_TP" (id 1) (at 19.05 149.86 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 20.32 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3980,22 +3980,6 @@
     )
     (pin "1" (uuid 1706ac59-931e-460d-a69f-a58e404fd21d))
     (pin "2" (uuid 11977b15-4c67-4c6e-b879-c7126452ee93))
-  )
-
-  (symbol (lib_id "power:GNDPWR") (at 222.25 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 613eb6a5-1fd8-419e-84b3-81c87e8b6b64)
-    (property "Reference" "#PWR028" (id 0) (at 222.25 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDPWR" (id 1) (at 222.123 116.84 0))
-    (property "Footprint" "" (id 2) (at 222.25 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 222.25 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 976c9f38-0584-4406-be09-ea737708a50c))
   )
 
   (symbol (lib_id "power:+3.3V") (at 48.26 107.315 0) (unit 1)
@@ -4288,7 +4272,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 238.76 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7cb97001-65f2-4712-a1b4-cd0b168eea23)
-    (property "Reference" "Q?" (id 0) (at 247.65 76.2 90))
+    (property "Reference" "Q4" (id 0) (at 247.65 76.2 90))
     (property "Value" "2N7002" (id 1) (at 245.11 76.2 90))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 243.84 78.105 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
@@ -4408,7 +4392,7 @@
   (symbol (lib_id "power:GNDPWR") (at 241.3 60.325 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8d2cbb28-c49d-4661-b9db-6d89eed3715e)
-    (property "Reference" "#PWR?" (id 0) (at 241.3 65.405 0)
+    (property "Reference" "#PWR0104" (id 0) (at 241.3 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (id 1) (at 247.015 61.595 0))
@@ -4474,7 +4458,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 188.595 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 930c7bea-4025-4c2d-85db-f7b5125419a9)
-    (property "Reference" "CLK1" (id 0) (at 60.96 191.5414 0))
+    (property "Reference" "TP9" (id 0) (at 60.96 191.5414 0))
     (property "Value" "LIGHTSCLK_TP" (id 1) (at 59.69 189.23 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 62.23 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4552,7 +4536,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 45.085 188.595 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9fa9360a-c478-437e-b66a-554df60673f4)
-    (property "Reference" "Headlight1" (id 0) (at 38.735 191.5414 0))
+    (property "Reference" "TP8" (id 0) (at 38.735 191.5414 0))
     (property "Value" "HDLT_SW" (id 1) (at 38.735 189.23 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 40.005 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4581,7 +4565,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 26.67 188.595 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a3b43bfa-1642-4cee-8d56-69828790139c)
-    (property "Reference" "LeftBlink1" (id 0) (at 20.955 192.405 0))
+    (property "Reference" "TP4" (id 0) (at 20.955 192.405 0))
     (property "Value" "LEFT_BLINK_TP" (id 1) (at 19.05 190.0936 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 21.59 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4613,7 +4597,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 238.76 52.705 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a64a8a7f-5507-44d3-bedd-079bd0c2044d)
-    (property "Reference" "Q?" (id 0) (at 247.65 52.705 90))
+    (property "Reference" "Q3" (id 0) (at 247.65 52.705 90))
     (property "Value" "2N7002" (id 1) (at 245.11 52.705 90))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 243.84 54.61 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
@@ -4958,7 +4942,7 @@
   (symbol (lib_id "power:GNDPWR") (at 241.3 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d1ce6e26-7431-4efd-a324-7b63867cf525)
-    (property "Reference" "#PWR?" (id 0) (at 241.3 87.63 0)
+    (property "Reference" "#PWR0102" (id 0) (at 241.3 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (id 1) (at 247.015 83.82 0))
@@ -5063,7 +5047,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 238.125 151.765 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d998d533-4f8c-4a4d-a08f-fb946db39ac5)
-    (property "Reference" "Q?" (id 0) (at 247.015 151.765 90))
+    (property "Reference" "Q1" (id 0) (at 247.015 151.765 90))
     (property "Value" "2N7002" (id 1) (at 244.475 151.765 90))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 243.205 153.67 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
@@ -5117,7 +5101,7 @@
   (symbol (lib_id "power:GNDPWR") (at 241.3 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dd15c67d-5beb-4147-b48b-91b0aa50d937)
-    (property "Reference" "#PWR?" (id 0) (at 241.3 40.64 0)
+    (property "Reference" "#PWR0103" (id 0) (at 241.3 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (id 1) (at 247.015 36.83 0))
@@ -5133,7 +5117,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 41.91 149.225 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid df81f17d-eead-4596-88f6-95daccd1de0b)
-    (property "Reference" "12V1" (id 0) (at 35.56 152.1714 0))
+    (property "Reference" "TP5" (id 0) (at 35.56 152.1714 0))
     (property "Value" "12V_TP" (id 1) (at 35.56 149.86 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 36.83 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5246,7 +5230,7 @@
   (symbol (lib_id "power:GNDPWR") (at 241.3 106.68 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid efc5f980-541a-418b-ac57-affbe05b2b90)
-    (property "Reference" "#PWR?" (id 0) (at 241.3 111.76 0)
+    (property "Reference" "#PWR0105" (id 0) (at 241.3 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (id 1) (at 246.38 107.95 0))
@@ -5277,7 +5261,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 238.76 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f1c28ed9-cca4-4ae5-9231-0969f4612a77)
-    (property "Reference" "Q?" (id 0) (at 247.65 27.94 90))
+    (property "Reference" "Q2" (id 0) (at 247.65 27.94 90))
     (property "Value" "2N7002" (id 1) (at 245.11 27.94 90))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 243.84 29.845 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
@@ -5312,7 +5296,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 41.91 161.29 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid faeb5ed7-0dc8-4be8-9194-28aad95d75b7)
-    (property "Reference" "5V1" (id 0) (at 35.56 164.2364 0))
+    (property "Reference" "TP6" (id 0) (at 35.56 164.2364 0))
     (property "Value" "5V_TP" (id 1) (at 35.56 161.925 0))
     (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (id 2) (at 36.83 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5452,9 +5436,6 @@
     (path "/b27e33a6-bc89-4c6e-8031-f08e91ecfa33"
       (reference "#PWR027") (unit 1) (value "+12V") (footprint "")
     )
-    (path "/613eb6a5-1fd8-419e-84b3-81c87e8b6b64"
-      (reference "#PWR028") (unit 1) (value "GNDPWR") (footprint "")
-    )
     (path "/36d6fd85-1246-40f2-bbe1-7f5a449d64d8"
       (reference "#PWR029") (unit 1) (value "+12V") (footprint "")
     )
@@ -5477,28 +5458,19 @@
       (reference "#PWR035") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/4ee35cd7-a605-41e4-92ae-b2b04e589ec3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8d2cbb28-c49d-4661-b9db-6d89eed3715e"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/d1ce6e26-7431-4efd-a324-7b63867cf525"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/dd15c67d-5beb-4147-b48b-91b0aa50d937"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/8d2cbb28-c49d-4661-b9db-6d89eed3715e"
+      (reference "#PWR0104") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/efc5f980-541a-418b-ac57-affbe05b2b90"
-      (reference "#PWR?") (unit 1) (value "GNDPWR") (footprint "")
-    )
-    (path "/07a306c5-b9f0-4467-8d7f-e605a48e7675"
-      (reference "3V1") (unit 1) (value "3V3_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
-    (path "/faeb5ed7-0dc8-4be8-9194-28aad95d75b7"
-      (reference "5V1") (unit 1) (value "5V_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
-    (path "/df81f17d-eead-4596-88f6-95daccd1de0b"
-      (reference "12V1") (unit 1) (value "12V_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+      (reference "#PWR0105") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/b7f384c6-5a26-429f-8bb5-aa8a1adefe32"
       (reference "BL1") (unit 1) (value "LM555xM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
@@ -5538,9 +5510,6 @@
     )
     (path "/5e0e20fe-2500-4c92-957b-64536f5ff245"
       (reference "C11") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/930c7bea-4025-4c2d-85db-f7b5125419a9"
-      (reference "CLK1") (unit 1) (value "LIGHTSCLK_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
     (path "/8c675969-9c18-4673-8533-488254656f86"
       (reference "CRUZ EN IND1") (unit 1) (value "CRUZ_EN_INDICATOR_33v") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
@@ -5596,12 +5565,6 @@
     (path "/308af0ed-a321-482e-921e-92cdc84db85d"
       (reference "FORWARD IND1") (unit 1) (value "FOR_INDICATOR_33v") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
     )
-    (path "/1555fceb-fb15-4a28-a934-05d7ad29c2f8"
-      (reference "GND1") (unit 1) (value "GND_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
-    (path "/50289ba9-9fbc-4e54-a2ff-cc9b002b03dc"
-      (reference "GNDPWR1") (unit 1) (value "GNDPWR_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
     (path "/00000000-0000-0000-0000-00005f95b613"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
     )
@@ -5615,16 +5578,13 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/3c89205a-c203-442b-97fe-51aa7163ce7d"
-      (reference "HEADLIGHT2") (unit 1) (value "EXTERNAL_HDLT") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
+      (reference "HEADLIGHT1") (unit 1) (value "EXTERNAL_HDLT") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
     )
     (path "/21709f9f-a287-4a37-be4b-1b538a9f839a"
-      (reference "HEADLIGHT3") (unit 1) (value "EXTERNAL_HDLT") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
+      (reference "HEADLIGHT2") (unit 1) (value "EXTERNAL_HDLT") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
     )
     (path "/bc505c92-566e-426a-bb14-027d6c0e875f"
       (reference "HZD SW1") (unit 1) (value "SPST") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
-    )
-    (path "/9fa9360a-c478-437e-b66a-554df60673f4"
-      (reference "Headlight1") (unit 1) (value "HDLT_SW") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
     (path "/00000000-0000-0000-0000-000061936b9e"
       (reference "J1") (unit 1) (value "MinionConn") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0900_1x09_P3.00mm_Horizontal")
@@ -5641,29 +5601,26 @@
     (path "/00000000-0000-0000-0000-00005fd2eafc"
       (reference "LOGO2") (unit 1) (value "UTSVT Logo") (footprint "UTSVT_Special:UTSVT_Logo_Symbol")
     )
-    (path "/a3b43bfa-1642-4cee-8d56-69828790139c"
-      (reference "LeftBlink1") (unit 1) (value "LEFT_BLINK_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
     (path "/6e2fc04e-2ce6-4de9-8b05-de87855fcd8c"
       (reference "NEUTRAL IND1") (unit 1) (value "NEU_INDICATOR_33v") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
     )
     (path "/e1480d78-87f9-4fec-a787-c7a7a16b3230"
       (reference "PWR1") (unit 1) (value "12VPWRCONN") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
     )
-    (path "/3701f074-72ea-4e71-87c2-49dce8e5d57c"
-      (reference "Q?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/7cb97001-65f2-4712-a1b4-cd0b168eea23"
-      (reference "Q?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/a64a8a7f-5507-44d3-bedd-079bd0c2044d"
-      (reference "Q?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
     (path "/d998d533-4f8c-4a4d-a08f-fb946db39ac5"
-      (reference "Q?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f1c28ed9-cca4-4ae5-9231-0969f4612a77"
-      (reference "Q?") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/a64a8a7f-5507-44d3-bedd-079bd0c2044d"
+      (reference "Q3") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/7cb97001-65f2-4712-a1b4-cd0b168eea23"
+      (reference "Q4") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/3701f074-72ea-4e71-87c2-49dce8e5d57c"
+      (reference "Q5") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/7a6eba20-2de4-42cc-82f9-d75d25debf1d"
       (reference "R BLINK EXT1") (unit 1) (value "EXTERNAL_RIGHTBLINK") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
@@ -5749,8 +5706,32 @@
     (path "/91605df8-21d3-4f7c-9eb0-3f76981dc6a1"
       (reference "REV IND1") (unit 1) (value "REV_INDICATOR_33v") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical")
     )
+    (path "/50289ba9-9fbc-4e54-a2ff-cc9b002b03dc"
+      (reference "TP1") (unit 1) (value "GNDPWR_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/1555fceb-fb15-4a28-a934-05d7ad29c2f8"
+      (reference "TP2") (unit 1) (value "GND_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/07a306c5-b9f0-4467-8d7f-e605a48e7675"
+      (reference "TP3") (unit 1) (value "3V3_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/a3b43bfa-1642-4cee-8d56-69828790139c"
+      (reference "TP4") (unit 1) (value "LEFT_BLINK_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/df81f17d-eead-4596-88f6-95daccd1de0b"
+      (reference "TP5") (unit 1) (value "12V_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/faeb5ed7-0dc8-4be8-9194-28aad95d75b7"
+      (reference "TP6") (unit 1) (value "5V_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
     (path "/227898b7-62f2-4b23-b717-55fbeeaa9d4a"
-      (reference "RightBlink1") (unit 1) (value "RIGHT_BLINK_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+      (reference "TP7") (unit 1) (value "RIGHT_BLINK_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/9fa9360a-c478-437e-b66a-554df60673f4"
+      (reference "TP8") (unit 1) (value "HDLT_SW") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
+    )
+    (path "/930c7bea-4025-4c2d-85db-f7b5125419a9"
+      (reference "TP9") (unit 1) (value "LIGHTSCLK_TP") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
     (path "/dfd25b87-9b39-4b03-a03b-ad51e1968951"
       (reference "Turn Signal SW1") (unit 1) (value "TURN_SIGNAL_SW") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical")
