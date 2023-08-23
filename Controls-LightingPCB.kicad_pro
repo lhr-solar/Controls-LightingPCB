@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39999999999999997
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -537,6 +537,18 @@
     [
       "878def96-76f6-45ed-b005-573a6523d263",
       "MinionConn"
+    ],
+    [
+      "916dc945-7f6b-4f72-9501-843226bc8544",
+      "Power Distribution"
+    ],
+    [
+      "707e8be1-7b8e-48bc-ab71-a96c53f6f50a",
+      "Inputs"
+    ],
+    [
+      "ceb5a95e-a274-4dea-8a59-96d1af6e854d",
+      "Lights"
     ]
   ],
   "text_variables": {}
