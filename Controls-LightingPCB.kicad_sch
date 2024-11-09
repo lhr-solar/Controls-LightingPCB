@@ -768,10 +768,6 @@
 		(color 0 0 0 0)
 		(uuid "e6b4438d-5b5d-4e1b-9d64-47213bb21c5e")
 	)
-	(no_connect
-		(at 47.625 75.565)
-		(uuid "1947ec07-87f6-436f-9e20-ff2f1a0d2219")
-	)
 	(wire
 		(pts
 			(xy 35.56 53.34) (xy 47.879 53.34)
@@ -781,16 +777,6 @@
 			(type default)
 		)
 		(uuid "1b4cf454-44f6-44f3-aa27-8e720d33c367")
-	)
-	(wire
-		(pts
-			(xy 147.955 80.01) (xy 163.83 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae17624-5a66-4f2a-989e-f203fa1f56d5")
 	)
 	(wire
 		(pts
@@ -831,16 +817,6 @@
 			(type default)
 		)
 		(uuid "4f1ce038-9a9f-46b4-b7ed-c1c5ca1564bf")
-	)
-	(wire
-		(pts
-			(xy 35.56 73.025) (xy 47.879 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9c3952-b28b-4712-b859-2b00a096bd4f")
 	)
 	(wire
 		(pts
@@ -904,16 +880,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 78.105) (xy 47.879 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e27c741-3c32-4f8b-9249-196a0ab17d6a")
-	)
-	(wire
-		(pts
 			(xy 194.31 109.22) (xy 194.31 94.615)
 		)
 		(stroke
@@ -924,13 +890,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 83.185) (xy 47.879 83.185)
+			(xy 147.32 80.01) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f5f9803-ea2e-4907-b7b3-c05f35aa6bed")
+		(uuid "9cc47aad-d6f3-44cc-aed4-ab4c8706b788")
 	)
 	(wire
 		(pts
@@ -964,16 +930,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 80.645) (xy 47.879 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b656b9f4-bb22-474e-97eb-af0691d4e297")
-	)
-	(wire
-		(pts
 			(xy 183.515 109.22) (xy 194.31 109.22)
 		)
 		(stroke
@@ -991,36 +947,6 @@
 			(type default)
 		)
 		(uuid "c85cb1a2-cb04-49f1-81e0-052aa891d275")
-	)
-	(wire
-		(pts
-			(xy 35.56 75.565) (xy 47.625 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92884c6-e90a-4669-902c-a8ef96ccc7af")
-	)
-	(wire
-		(pts
-			(xy 35.56 48.26) (xy 47.879 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf665cff-07d7-4228-a624-4e1e86da26f4")
-	)
-	(wire
-		(pts
-			(xy 35.56 70.485) (xy 47.879 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6be78d-9010-4041-850c-243003e45cfb")
 	)
 	(wire
 		(pts
@@ -1129,62 +1055,7 @@
 		)
 		(uuid "bf80b913-e137-4010-9c32-6b9e25bd893b")
 	)
-	(label "CRUZ_ST"
-		(at 47.879 80.645 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00901088-f010-448a-8135-cf195258ee9d")
-	)
-	(label "REV_SW"
-		(at 47.879 73.025 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a8fb2fe-4984-462d-b9fe-9d7a3bf896df")
-	)
-	(label "LIGHTSCLK"
-		(at 152.4 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3eb4458c-38b0-4997-946d-2d5165edb0e6")
-	)
-	(label "REGEN_SW"
-		(at 47.879 83.185 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "463ac0bf-42a3-4f96-9b7e-4d696644c32d")
-	)
-	(label "CRUZ_EN"
-		(at 47.879 78.105 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7284af4d-14c5-4c08-969d-c998ea83bdc9")
-	)
-	(label "FOR_SW"
+	(label "LIGHTS_TGL"
 		(at 47.879 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1205,28 +1076,6 @@
 			(justify right bottom)
 		)
 		(uuid "781eaae2-7749-4c21-85c6-1b71123956d1")
-	)
-	(label "REGEN_SW"
-		(at 47.879 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b697b1a-9995-4cd9-b865-8d534e1250ce")
-	)
-	(label "FOR_SW"
-		(at 47.879 70.485 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99654554-7e2d-4003-b835-a55f8a67a6ee")
 	)
 	(label "CRUZ_ST"
 		(at 47.879 58.42 180)
@@ -1315,6 +1164,18 @@
 			(justify right bottom)
 		)
 		(uuid "fde60c48-248e-494f-b571-363b891efb0e")
+	)
+	(hierarchical_label "LIGHTS_TGL"
+		(shape input)
+		(at 147.32 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0bf6a71-0c05-44da-8127-79a933fff95d")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2138,105 +1999,6 @@
 		)
 	)
 	(sheet
-		(at 15.24 68.453)
-		(size 20.32 16.637)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "707e8be1-7b8e-48bc-ab71-a96c53f6f50a")
-		(property "Sheetname" "Inputs"
-			(at 15.24 67.7414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Inputs.kicad_sch"
-			(at 15.24 85.6746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "FOR_SW" output
-			(at 35.56 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6212a68a-eb33-4797-9955-383510552b52")
-		)
-		(pin "REV_SW" output
-			(at 35.56 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e4e75426-5102-4de2-9521-ed8c81237b66")
-		)
-		(pin "NEU_SW" output
-			(at 35.56 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fb85bdcd-a25f-4a7d-b97d-b4af9b50c255")
-		)
-		(pin "CRUZ_EN" output
-			(at 35.56 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a393fed4-03b6-4582-96f4-5410c00818ba")
-		)
-		(pin "CRUZ_ST" output
-			(at 35.56 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8617d947-822c-4921-930a-9992cf922b08")
-		)
-		(pin "REGEN_SW" output
-			(at 35.56 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a7c6177f-dd5b-4641-8380-f95dc854bd3b")
-		)
-		(instances
-			(project "Controls-LightingPCB"
-				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 15.24 43.942)
 		(size 20.32 17.018)
 		(fields_autoplaced yes)
@@ -2297,7 +2059,7 @@
 			)
 			(uuid "9ef055f3-3cc9-4aec-bb50-d2e95ca224ef")
 		)
-		(pin "FOR_SW" input
+		(pin "LIGHTS_TGL" input
 			(at 35.56 50.8 0)
 			(effects
 				(font
@@ -2306,16 +2068,6 @@
 				(justify right)
 			)
 			(uuid "71f42577-ac6e-405d-b592-cbdfd84b2d28")
-		)
-		(pin "REGEN_SW" input
-			(at 35.56 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "949968ab-7f7d-4afd-b707-6911cca3e741")
 		)
 		(pin "BRAKELIGHT" input
 			(at 35.56 45.72 0)
