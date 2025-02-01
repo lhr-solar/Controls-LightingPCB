@@ -1582,6 +1582,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 130.81) (xy 30.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1904eacf-bbb2-40d8-b124-1673ec9e8399")
+	)
+	(wire
+		(pts
 			(xy 69.85 135.89) (xy 69.85 137.16)
 		)
 		(stroke
@@ -1682,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 130.81) (xy 49.53 130.81)
+			(xy 44.45 130.81) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1749,6 +1759,16 @@
 			(type default)
 		)
 		(uuid "4836f5aa-ef5e-4cf3-a3e3-e0d4cacc53a0")
+	)
+	(wire
+		(pts
+			(xy 38.1 172.72) (xy 31.75 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3475f2-00f1-4b9f-9b4e-3ecdad37a021")
 	)
 	(wire
 		(pts
@@ -2192,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 172.72) (xy 50.8 172.72)
+			(xy 45.72 172.72) (xy 50.8 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -2998,7 +3018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "698"
 			(at 54.102 89.027 90)
 			(effects
 				(font
@@ -3470,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "698"
 			(at 188.722 125.857 90)
 			(effects
 				(font
@@ -3597,7 +3617,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 130.81 90)
+		(at 40.64 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3605,7 +3625,7 @@
 		(dnp no)
 		(uuid "4fcb1c2a-1c7a-458e-a201-f8b66d0b484c")
 		(property "Reference" "R9"
-			(at 36.322 128.1684 90)
+			(at 42.672 128.1684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,8 +3633,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
-			(at 36.322 125.857 90)
+		(property "Value" "698"
+			(at 42.672 125.857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3643,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 34.29 132.588 90)
+			(at 40.64 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 130.81 0)
+			(at 40.64 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3661,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 130.81 0)
+			(at 40.64 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3670,7 @@
 			)
 		)
 		(property "P/N" "SDR10EZPJ152"
-			(at 34.29 130.81 90)
+			(at 40.64 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 53.34 180.34 0)
 			(effects
 				(font
@@ -4288,7 +4308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "698"
 			(at 52.832 50.927 90)
 			(effects
 				(font
@@ -4796,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -4881,7 +4901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 204.47 138.43 0)
 			(effects
 				(font
@@ -5263,7 +5283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "698"
 			(at 189.992 94.107 90)
 			(effects
 				(font
@@ -5691,7 +5711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 69.85 101.6 0)
 			(effects
 				(font
@@ -5753,7 +5773,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 172.72 90)
+		(at 41.91 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5761,7 +5781,7 @@
 		(dnp no)
 		(uuid "e5c49cad-7213-42dc-acb2-895f0107149e")
 		(property "Reference" "R11"
-			(at 37.592 170.0784 90)
+			(at 43.942 170.0784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,8 +5789,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510"
-			(at 37.592 167.767 90)
+		(property "Value" "698"
+			(at 43.942 167.767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5799,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 35.56 174.498 90)
+			(at 41.91 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +5808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 172.72 0)
+			(at 41.91 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 172.72 0)
+			(at 41.91 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5826,7 @@
 			)
 		)
 		(property "P/N" "SDR10EZPJ152"
-			(at 35.56 172.72 90)
+			(at 41.91 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
 			(at 205.74 106.68 0)
 			(effects
 				(font

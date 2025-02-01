@@ -2843,28 +2843,6 @@
 		)
 		(uuid "242663e6-4b22-49f6-b2d6-40cee848dfc1")
 	)
-	(label "+3.3V"
-		(at 217.17 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cfa2739-684c-49c7-a2c6-4b3ff4681bbf")
-	)
-	(label "+12V"
-		(at 217.17 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52e1575d-d86c-4111-ad83-f33cd9708947")
-	)
 	(label "R_XTRA2_ON"
 		(at 179.07 133.35 180)
 		(fields_autoplaced yes)
@@ -2908,17 +2886,6 @@
 			(justify right bottom)
 		)
 		(uuid "7be9737d-04e9-4cbc-bb35-bed8db852e1b")
-	)
-	(label "GND"
-		(at 217.17 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a312b9cd-12d1-4390-ad53-05c63dfc8c26")
 	)
 	(label "L_XTRA2_ON"
 		(at 96.52 157.48 0)
@@ -3548,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 77.47 270)
+		(at 217.17 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3557,7 +3524,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cba9817-968c-4578-861d-ccc6c639aa6e")
 		(property "Reference" "TP8"
-			(at 222.25 76.1999 90)
+			(at 222.25 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3533,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 222.25 78.7399 90)
+			(at 222.25 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3542,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 217.17 82.55 0)
+			(at 217.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3551,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 217.17 82.55 0)
+			(at 217.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3560,7 @@
 			)
 		)
 		(property "Description" "through-hole test point mini"
-			(at 217.17 77.47 0)
+			(at 217.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,6 +4791,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "635068a9-ebbf-499d-ab0e-40ea49d83f29")
+		(property "Reference" "#PWR031"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 217.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17dd4f7a-7210-4652-9f48-043625868ca1")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 78.74 125.73 270)
 		(unit 1)
@@ -5125,6 +5158,72 @@
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 217.17 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a042fe-c20b-461e-99d7-7387a46bc888")
+		(property "Reference" "#PWR030"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a85f6c3-fde1-4a80-a418-b3ec8e3f34b2")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5543,7 +5642,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 85.09 270)
+		(at 217.17 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5552,7 +5651,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2b0ecb-6b2c-4ac0-9cc4-31ca963386b5")
 		(property "Reference" "TP9"
-			(at 222.25 83.8199 90)
+			(at 222.25 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5660,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 222.25 86.3599 90)
+			(at 222.25 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 217.17 90.17 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 217.17 90.17 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5687,7 @@
 			)
 		)
 		(property "Description" "through-hole test point mini"
-			(at 217.17 85.09 0)
+			(at 217.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,6 +5832,73 @@
 			(project ""
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e7a3e8-da93-4c78-b6bd-67cfea871b27")
+		(property "Reference" "#PWR032"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455f987a-8da2-4230-a8f7-0ba95b1751ff")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5995,7 +6161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "peripheral som connector"
 			(at 109.22 83.82 0)
 			(effects
 				(font
