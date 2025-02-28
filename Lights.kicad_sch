@@ -692,7 +692,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N7002"
+		(symbol "Transistor_FET:IRLML0030"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -706,7 +706,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "IRLML0030"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -726,8 +726,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -736,7 +736,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -745,7 +745,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,7 +763,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7002_0_1"
+			(symbol "IRLML0030_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -930,7 +930,7 @@
 					)
 				)
 			)
-			(symbol "2N7002_1_1"
+			(symbol "IRLML0030_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2639,32 +2639,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 90.17 135.89 0)
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 124.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "081c252a-b986-424a-b9bd-d0909cea6842")
-		(property "Reference" "Q5"
-			(at 99.06 135.89 90)
+		(fields_autoplaced yes)
+		(uuid "09066b61-a2ce-46c1-8287-2e63c1409b8b")
+		(property "Reference" "Q1"
+			(at 130.81 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 96.52 135.89 90)
+		(property "Value" "IRLML0030"
+			(at 130.81 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 137.795 0)
+			(at 129.54 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,8 +2677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 90.17 135.89 0)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 129.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,37 +2687,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 90.17 135.89 0)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "P/N" "2N7002HR"
-			(at 90.17 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44880b36-abdc-4433-8bcb-58f969bef2c3")
-		)
-		(pin "2"
-			(uuid "12684013-a47d-43f7-a9ef-5346f70e5da6")
 		)
 		(pin "3"
-			(uuid "14a6576e-7ea6-4f3e-9f9b-61dbd4597f4c")
+			(uuid "d960264d-3e64-44d8-b79c-b7a455d19bf0")
+		)
+		(pin "1"
+			(uuid "52bf6bf7-c4e4-4f41-aedf-87b7f603f9d6")
+		)
+		(pin "2"
+			(uuid "c9314482-7e1b-40c2-af06-a1e7b1ec9b2a")
 		)
 		(instances
-			(project "Controls-LightingPCB"
+			(project ""
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "Q5")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3001,6 +2995,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 107.95 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b851198-0be3-4bf6-b4cf-0e056ca2bbcc")
+		(property "Reference" "Q2"
+			(at 114.3 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 114.3 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 113.03 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73fce04d-e355-4af0-aa73-8d0ebd7a4597")
+		)
+		(pin "3"
+			(uuid "0798f728-5cd4-437b-a852-8bf71ad704b9")
+		)
+		(pin "1"
+			(uuid "e23e04ff-98f6-4b9b-b979-9bb48e5405d2")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 243.84 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5d6b11-3203-4174-ac76-4e2f95544ad1")
+		(property "Reference" "Q5"
+			(at 250.19 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 250.19 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 248.92 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 248.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d69e377-45dd-4ff0-bd3a-cced874cd69f")
+		)
+		(pin "1"
+			(uuid "44535cb7-22ec-43c4-8896-bdc11b189222")
+		)
+		(pin "3"
+			(uuid "9401ec88-84ce-462c-9c17-0f28e32e345d")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 93.98 90)
 		(unit 1)
@@ -3018,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "698"
+		(property "Value" "1k"
 			(at 54.102 89.027 90)
 			(effects
 				(font
@@ -3157,6 +3303,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 90.17 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2112e2ea-708e-49be-aeb1-67fd7162d462")
+		(property "Reference" "Q3"
+			(at 96.52 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 96.52 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 95.25 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 90.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29730a8d-8fe8-4ba7-a4c4-545e6abf90fc")
+		)
+		(pin "3"
+			(uuid "c8868240-5d6e-44fc-b262-4908201e48ac")
+		)
+		(pin "2"
+			(uuid "a7efd09e-0177-40cf-a147-446bb9a78dee")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 87.63 102.87 0)
 		(unit 1)
@@ -3229,88 +3451,6 @@
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 107.95 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "306ea99b-140a-408a-831f-fe57500e60bd")
-		(property "Reference" "Q2"
-			(at 116.84 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 114.3 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 113.03 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "2N7002HR"
-			(at 107.95 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a60f3be-7e76-425b-9406-d4d92c867fe2")
-		)
-		(pin "2"
-			(uuid "8e8cebe7-a790-4cd6-897b-a71093216877")
-		)
-		(pin "3"
-			(uuid "4a6758a2-df61-4b5a-91de-5662c7dae63f")
-		)
-		(instances
-			(project "Controls-LightingPCB"
-				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3490,7 +3630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "698"
+		(property "Value" "1k"
 			(at 188.722 125.857 90)
 			(effects
 				(font
@@ -3633,7 +3773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "698"
+		(property "Value" "1k"
 			(at 42.672 125.857 90)
 			(effects
 				(font
@@ -3688,88 +3828,6 @@
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 91.44 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fedf588-e33d-4daf-a775-5be9d53c62d1")
-		(property "Reference" "Q6"
-			(at 100.33 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 97.79 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 96.52 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 91.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "2N7002HR"
-			(at 91.44 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7534bdc-9a3e-408e-862f-73183f642e68")
-		)
-		(pin "2"
-			(uuid "19dbc3f4-e962-4ee9-9778-c76a41f9c783")
-		)
-		(pin "3"
-			(uuid "5f9cc4bf-fb47-46db-99e6-f3afb055638d")
-		)
-		(instances
-			(project "Controls-LightingPCB"
-				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "698"
+		(property "Value" "1k"
 			(at 52.832 50.927 90)
 			(effects
 				(font
@@ -4429,88 +4487,6 @@
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 242.57 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79f0c2f8-6094-44c1-95d6-b35c70f6bdc2")
-		(property "Reference" "Q4"
-			(at 251.46 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 248.92 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 247.65 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 242.57 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "2N7002HR"
-			(at 242.57 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dec34791-9b9f-48ec-a4ee-b2e25ca1f014")
-		)
-		(pin "2"
-			(uuid "f5f0cda0-55e6-4642-bad3-c6c7d458b65c")
-		)
-		(pin "3"
-			(uuid "06f6f490-687c-4fe0-8cb0-a3d2b13f812c")
-		)
-		(instances
-			(project "Controls-LightingPCB"
-				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5106,88 +5082,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 243.84 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3b881b6-081d-478e-90df-97fec303d5da")
-		(property "Reference" "Q3"
-			(at 252.73 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 250.19 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 248.92 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 243.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "2N7002HR"
-			(at 243.84 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1922414-f66c-4d84-85e0-78938c6af43d")
-		)
-		(pin "2"
-			(uuid "c85c6831-559c-40de-9c49-fd101553053e")
-		)
-		(pin "3"
-			(uuid "6c00763d-17f8-46bb-ba5f-dd794f631a0f")
-		)
-		(instances
-			(project "Controls-LightingPCB"
-				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 223.52 107.95 0)
 		(unit 1)
@@ -5283,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "698"
+		(property "Value" "1k"
 			(at 189.992 94.107 90)
 			(effects
 				(font
@@ -5338,88 +5232,6 @@
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 124.46 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbdd090d-8658-4453-a20f-59b319f0b83c")
-		(property "Reference" "Q1"
-			(at 130.683 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 133.35 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 129.54 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "2N7002HR"
-			(at 124.46 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ae63d65-85a4-4590-a6b9-1e9930e01a96")
-		)
-		(pin "2"
-			(uuid "d1ae880a-1db9-4923-8723-55de5cdc497a")
-		)
-		(pin "3"
-			(uuid "60afe86e-2834-48e1-a416-95881a145fc6")
-		)
-		(instances
-			(project "Controls-LightingPCB"
-				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5550,6 +5362,82 @@
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 91.44 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e44d44-b001-4473-be40-87b8299230f0")
+		(property "Reference" "Q4"
+			(at 97.79 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 97.79 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 96.52 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 91.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c76c6faf-1025-4b45-b7dc-af11b1ea1962")
+		)
+		(pin "2"
+			(uuid "3a6c4307-58cf-49b6-ac2d-d7f99b419c31")
+		)
+		(pin "3"
+			(uuid "695e2bd8-d837-457b-a11d-e0edb6e02bd0")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5772,6 +5660,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 242.57 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e49bfb2d-7160-4f74-aac0-e37721440d23")
+		(property "Reference" "Q6"
+			(at 248.92 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 248.92 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 247.65 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 242.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c88296-4f50-4385-b7cc-3cbf0415d544")
+		)
+		(pin "3"
+			(uuid "2c9c0d15-59b3-4380-9cfe-24d5e55218dd")
+		)
+		(pin "2"
+			(uuid "502b9f09-8b15-4204-a55e-845d3ed93e95")
+		)
+		(instances
+			(project ""
+				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 41.91 172.72 90)
 		(unit 1)
@@ -5789,7 +5753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "698"
+		(property "Value" "1k"
 			(at 43.942 167.767 90)
 			(effects
 				(font
