@@ -3920,7 +3920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52921580-b784-4b13-8e89-ab5a00b6e829")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 58.42 167.005 0)
 			(effects
 				(font
@@ -3990,7 +3990,7 @@
 		(instances
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4776,7 +4776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87c7cd8b-acb0-4183-ade6-410ef8287bd0")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 57.15 125.095 0)
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 		(instances
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4861,7 +4861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88733cb8-e5b5-4a69-a033-9c23b625c18e")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 209.55 125.095 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 		(instances
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6044,7 +6044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feb54e98-90e7-4ecf-b739-053778ceb4c3")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 210.82 93.345 0)
 			(effects
 				(font
@@ -6114,7 +6114,7 @@
 		(instances
 			(project "Controls-LightingPCB"
 				(path "/229b82f0-5048-47d6-8bc8-0bcee42eb4bc/ceb5a95e-a274-4dea-8a59-96d1af6e854d"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
