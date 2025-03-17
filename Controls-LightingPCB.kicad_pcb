@@ -161,7 +161,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "01aafeea-daae-4038-a62d-bcce26edb552")
-		(at 98.8625 98)
+		(at 98.8375 96.7)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D4"
@@ -422,11 +422,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "040ad9b3-183f-4942-9559-50ea258032c9")
-		(at 98.9 102.1)
+		(at 98.875 100.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP4"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "28bc487f-3e21-4730-a1ca-28a99b29691d")
 			(effects
@@ -437,7 +437,7 @@
 			)
 		)
 		(property "Value" "R_XTRA1_ON"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "07624442-562b-4a6f-b0b8-1e6769819a33")
 			(effects
@@ -565,7 +565,7 @@
 			(uuid "fd876173-ab8b-4b3a-b741-d77ffa8bee35")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "a45dc36c-7317-4037-9d92-c5679ad0602c")
 			(effects
@@ -910,7 +910,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1c981ca4-f181-4a02-9043-69ea3fc85b64")
-		(at 103.9125 98.01)
+		(at 103.8875 96.71)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
@@ -1171,7 +1171,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1ca4d673-60b5-421c-a9e9-b4b4fe97b948")
-		(at 89.3575 98.11)
+		(at 89.3325 96.81)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
@@ -1847,7 +1847,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1ed3b207-34e8-4ed5-a79b-0baea75a29e5")
-		(at 93.9 95.39)
+		(at 93.875 94.09)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -2588,11 +2588,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "4254530c-258a-4c32-a216-5907bc0cb5a1")
-		(at 93.9 102.2)
+		(at 93.875 100.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "e271a00e-05e2-4093-833d-eaf0d8df07c6")
 			(effects
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Value" "L_XTRA1_ON"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "541ff085-3c2f-429d-8911-dd8aa7d7fb75")
 			(effects
@@ -2731,7 +2731,7 @@
 			(uuid "118153b8-1e28-4099-afbc-69a83b5066fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "7358fc36-c2bc-4a3b-8e4c-d92e944c0bb9")
 			(effects
@@ -2767,7 +2767,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4a9deae6-aac6-4219-b78e-e941707ccc1f")
-		(at 108.7625 95.29)
+		(at 108.7375 93.99)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -2980,11 +2980,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "50d6ee68-adba-457e-a171-492672a18e18")
-		(at 89.2 102.2)
+		(at 89.175 100.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP2"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "778e2f8e-549c-4d9e-aab4-d9dcf48447d4")
 			(effects
@@ -2995,7 +2995,7 @@
 			)
 		)
 		(property "Value" "RIGHT_BLINK"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "1597206e-0e1f-4a76-a2df-e47c9f132226")
 			(effects
@@ -3123,7 +3123,7 @@
 			(uuid "25e879b8-1399-4b38-ad3f-fcdc7dde54f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "9a084007-ca4a-4fae-8947-48d6f79350f8")
 			(effects
@@ -3159,7 +3159,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "53dbad5f-291d-40e1-b79d-5e38c593b060")
-		(at 118.5 102.1)
+		(at 118.475 100.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP8"
@@ -3338,7 +3338,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5a7d6a09-3a31-4713-96a8-965ebc3692b0")
-		(at 93.9 98.1)
+		(at 93.875 96.8)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D3"
@@ -3599,7 +3599,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "64394299-4370-4e26-9ae6-82020d75ad1f")
-		(at 84.5275 95.4)
+		(at 84.5025 94.1)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -3812,7 +3812,7 @@
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "74484225-b0aa-4594-923b-90508d695a3b")
-		(at 77.5 99.9)
+		(at 77.6 99.3)
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H3"
@@ -4340,7 +4340,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7789d32c-d280-4b4c-8444-65fcc4979ce1")
-		(at 108.7625 98)
+		(at 108.7375 96.7)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
@@ -4601,11 +4601,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "7fe1653c-5578-4bb5-9efc-e774965022db")
-		(at 84.5 102.2)
+		(at 84.475 100.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP1"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "e2da03cb-24fe-4f6f-bbfc-f7934383e552")
 			(effects
@@ -4616,7 +4616,7 @@
 			)
 		)
 		(property "Value" "LEFT_BLINK"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "dd118732-9826-40bb-939b-194709c210dd")
 			(effects
@@ -4744,7 +4744,7 @@
 			(uuid "3037148b-b610-4124-8922-e3568fe835c8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "ca377ad7-e987-4fe1-952d-220e3caa315e")
 			(effects
@@ -4780,11 +4780,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "8145d7a8-f52a-48ba-8842-6b393d40e8d2")
-		(at 103.8 102.1)
+		(at 103.775 100.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP5"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "d4f328bb-598b-4812-8892-aecd39aa264a")
 			(effects
@@ -4795,7 +4795,7 @@
 			)
 		)
 		(property "Value" "L_XTRA2_ON"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "82479811-0d20-4bd1-aff0-87fb4e9528b1")
 			(effects
@@ -4923,7 +4923,7 @@
 			(uuid "cf696bc4-9775-43a4-b092-5bcc4420ed23")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "ac7ac73a-f0c8-4c0d-9676-eede454bd65f")
 			(effects
@@ -5374,7 +5374,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "95b3564f-a8b4-48b2-add2-bb67c1ef5f49")
-		(at 98.8625 95.29)
+		(at 98.8375 93.99)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -5819,7 +5819,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "a3e0ab97-09b2-4253-9c8b-fdcaeed25d37")
-		(at 123.5 102.1)
+		(at 123.475 100.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP9"
@@ -5998,7 +5998,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b6b4e293-69d5-4ddb-81d0-7029e9a438c1")
-		(at 113.6 102.1)
+		(at 113.575 100.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP7"
@@ -6177,7 +6177,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ba536d26-9225-44f2-a602-280c52896538")
-		(at 103.9125 95.3)
+		(at 103.8875 94)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -6390,7 +6390,7 @@
 	(footprint "UTSVT_Special:PeripheralSOM"
 		(layer "F.Cu")
 		(uuid "ca71d3b3-b8d4-4d1d-89af-8ba2c60843ac")
-		(at 96.08226 73.91774 90)
+		(at 96.075 73.475 90)
 		(property "Reference" "U1"
 			(at 16.084427 0 0)
 			(unlocked yes)
@@ -6619,7 +6619,7 @@
 		)
 		(fp_arc
 			(start 18.037742 -21.812258)
-			(mid 20.300485 -20.874999)
+			(mid 20.300482 -20.874999)
 			(end 21.237742 -18.612258)
 			(stroke
 				(width 0.1)
@@ -7135,7 +7135,7 @@
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "d6e2aaf8-740b-411e-af95-0449e0866e03")
-		(at 143.2 99.9)
+		(at 143.2 99.3)
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H4"
@@ -7248,11 +7248,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "d9890412-a0e9-4747-a940-944d480cf643")
-		(at 108.7 102.1)
+		(at 108.675 100.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP6"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "18db9556-77d1-4206-b729-942f97396513")
 			(effects
@@ -7263,7 +7263,7 @@
 			)
 		)
 		(property "Value" "R_XTRA2_ON"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "ee67259d-62b9-4abe-9bcf-af94d9105379")
 			(effects
@@ -7391,7 +7391,7 @@
 			(uuid "c5f526a8-52f2-4949-ae52-39d69ff03d6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.2 360)
+			(at 0 -2.2 0)
 			(layer "F.Fab")
 			(uuid "b66ad37c-179c-4513-ab1c-cd48a75eaaed")
 			(effects
@@ -7849,7 +7849,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f445d43e-5fae-440d-ad33-b7171c8dc66a")
-		(at 84.5 98.1)
+		(at 84.475 96.8)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
@@ -8525,7 +8525,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fce72290-601b-4dbe-be7b-c995d26b8f18")
-		(at 89.3 95.4)
+		(at 89.275 94.1)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -9948,7 +9948,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at -2.3625 0.05 180)
+			(at -2.3625 0.05 0)
 			(layer "B.Fab")
 			(uuid "8f31dfb9-5adb-4845-b147-b66b0b41bbb5")
 			(effects
@@ -13416,7 +13416,7 @@
 		(descr "SSOP, 4 Pin (https://www.vishay.com/docs/83465/vos618a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SSOP SO")
 		(property "Reference" "U3"
-			(at 0.225 2.3 180)
+			(at 0.225 2.3 0)
 			(layer "B.SilkS")
 			(uuid "d8955f5a-cb75-40c7-bd56-146344d5e756")
 			(effects
@@ -15350,7 +15350,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 2.3625 0.15 180)
+			(at 2.3625 0.15 0)
 			(layer "B.Fab")
 			(uuid "9e588528-892f-4f6b-828d-07c649b666ea")
 			(effects
@@ -15565,8 +15565,8 @@
 		)
 	)
 	(gr_rect
-		(start 73.66 44.08)
-		(end 147.32 104.14)
+		(start 73.66 44.38)
+		(end 147.32 102.84)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15574,6 +15574,118 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "3d79af17-d451-4ea7-a0b6-724ba6310643")
+	)
+	(segment
+		(start 103.70726 53.44274)
+		(end 105.31726 53.44274)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "5c4c55e9-4b75-4274-a6b2-5fd93153d17c")
+	)
+	(segment
+		(start 105.31726 53.44274)
+		(end 110.2 48.56)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "5d2cc4df-fde9-4e22-ac2a-c0e16abdd791")
+	)
+	(segment
+		(start 102.90726 57.74274)
+		(end 102.90726 58.89274)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "6dbc0705-3794-49ee-b7f5-1d7a93c385ce")
+	)
+	(segment
+		(start 105.76 59)
+		(end 116.2 48.56)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "87cc09c0-992c-4687-9ab5-82a28f69dabf")
+	)
+	(segment
+		(start 103.01452 59)
+		(end 105.76 59)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "c89818a0-f065-4dfd-98f7-bac192c71df3")
+	)
+	(segment
+		(start 102.90726 58.89274)
+		(end 103.01452 59)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "e4723df8-095b-41bb-8e31-3e41a06512d3")
+	)
+	(segment
+		(start 104.01726 57.74274)
+		(end 113.2 48.56)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "2b4b6de3-6095-4f1c-9095-77dae2017cd9")
+	)
+	(segment
+		(start 103.70726 57.74274)
+		(end 104.01726 57.74274)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "fee98c2b-34ff-4a6b-a5fe-e8784d1859eb")
+	)
+	(segment
+		(start 83.59 94.1)
+		(end 82.725 94.965)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "870adb7f-efdd-464c-91d7-e7a4aa980c5f")
+	)
+	(segment
+		(start 82.725 99.15)
+		(end 84.475 100.9)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "9a458747-7e9e-4a3b-a4af-762441a94c65")
+	)
+	(segment
+		(start 82.725 94.965)
+		(end 82.725 99.15)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "a4a24ca2-9aae-409a-bdad-28be402e63c1")
+	)
+	(segment
+		(start 106.64 48.56)
+		(end 107.2 48.56)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "6b5ef37a-f835-4856-aa1a-1da65d1dfd39")
+	)
+	(segment
+		(start 102.90726 53.44274)
+		(end 102.90726 52.29274)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "914368ef-11fc-47bf-b1a5-ff8d75587984")
+	)
+	(segment
+		(start 102.90726 52.29274)
+		(end 106.64 48.56)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "9848c09d-713e-458f-8d1f-0818e1f81f4e")
 	)
 	(group ""
 		(uuid "12fa5555-dd14-4ed9-9872-6c1e29805879")
