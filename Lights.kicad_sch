@@ -3242,7 +3242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EXTERNAL_LEFTBLINK"
+		(property "Value" "EXTERNAL_RIGHTBLINK"
 			(at 104.902 171.196 0)
 			(effects
 				(font
