@@ -422,7 +422,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "040ad9b3-183f-4942-9559-50ea258032c9")
-		(at 137 66.5)
+		(at 137.5 66.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "R_X1"
@@ -431,7 +431,7 @@
 			(uuid "28bc487f-3e21-4730-a1ca-28a99b29691d")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -592,7 +592,7 @@
 		(uuid "0f12fde1-5940-49e5-8409-56feffb7b4c4")
 		(at 107.2 48.56)
 		(property "Reference" "J1"
-			(at 4.5 -3.5 0)
+			(at 4.55 4.69 0)
 			(layer "F.SilkS")
 			(uuid "72e434e9-9c2f-465b-bc21-59f521a914a7")
 			(effects
@@ -1840,7 +1840,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.65 0)
+			(at 0 1.7 0)
 			(layer "F.SilkS")
 			(uuid "ace54734-612f-475c-8269-6565f82f37e9")
 			(effects
@@ -2055,6 +2055,7 @@
 		(property "Reference" "H1"
 			(at 2.9 -3.3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98e861d1-df7c-4bcc-b13c-068b8b14249e")
 			(effects
 				(font
@@ -2581,12 +2582,12 @@
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "L_X1"
-			(at -0.1 2.5 0)
+			(at 0.25 2 0)
 			(layer "F.SilkS")
 			(uuid "e271a00e-05e2-4093-833d-eaf0d8df07c6")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -2749,7 +2750,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0 -1.65 0)
+			(at 0 1.7 0)
 			(layer "F.SilkS")
 			(uuid "0235e536-4137-4f1e-ba0e-720d76fc69da")
 			(effects
@@ -2967,7 +2968,7 @@
 			(uuid "778e2f8e-549c-4d9e-aab4-d9dcf48447d4")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3570,7 +3571,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.65 0)
+			(at 0 1.9875 0)
 			(layer "F.SilkS")
 			(uuid "1dee79e6-e796-47d4-8646-80d70c941e29")
 			(effects
@@ -3785,6 +3786,7 @@
 		(property "Reference" "H3"
 			(at 3.6 -2.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98ab4bfd-4bcf-406a-a125-fcae32e8cb25")
 			(effects
 				(font
@@ -4572,12 +4574,12 @@
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "LEFT"
-			(at 0.1 2.5 180)
+			(at -0.25 2.5 180)
 			(layer "F.SilkS")
 			(uuid "e2da03cb-24fe-4f6f-bbfc-f7934383e552")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -4740,12 +4742,12 @@
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "L_X2"
-			(at 0.1 2.5 0)
+			(at 0.25 2.5 0)
 			(layer "F.SilkS")
 			(uuid "d4f328bb-598b-4812-8892-aecd39aa264a")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5323,7 +5325,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.65 0)
+			(at 0 1.9 0)
 			(layer "F.SilkS")
 			(uuid "a2153e56-f501-4ba5-b146-11a572269a6d")
 			(effects
@@ -6126,7 +6128,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.65 0)
+			(at 0 1.75 0)
 			(layer "F.SilkS")
 			(uuid "c3aea054-52d7-4716-b497-9d823ef8cd90")
 			(effects
@@ -7086,6 +7088,7 @@
 		(property "Reference" "H4"
 			(at -2.7 -3.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "389376af-b15b-487f-bf0a-6a20ab0d0388")
 			(effects
 				(font
@@ -7193,7 +7196,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "d9890412-a0e9-4747-a940-944d480cf643")
-		(at 137 77)
+		(at 137.5 77)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "R_X2"
@@ -7202,7 +7205,7 @@
 			(uuid "18db9556-77d1-4206-b729-942f97396513")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -7363,7 +7366,7 @@
 		(uuid "e71425e3-38cb-43af-bf59-7dfbdc8610fd")
 		(at 125.7 48.6)
 		(property "Reference" "J2"
-			(at 4.5 -3.5 0)
+			(at 4.5 4.4 0)
 			(layer "F.SilkS")
 			(uuid "acda5fd3-07fc-4710-bb25-6f6c873f785e")
 			(effects
@@ -7676,6 +7679,7 @@
 		(property "Reference" "H2"
 			(at -2.7 -3.4 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2ac04af2-7a21-4fa1-844e-3f3c138e0682")
 			(effects
 				(font
@@ -8463,7 +8467,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.65 0)
+			(at 0 1.7 0)
 			(layer "F.SilkS")
 			(uuid "dd520e92-da37-4a2c-9f45-3abcba7c2559")
 			(effects
@@ -17855,6 +17859,110 @@
 		(layer "Edge.Cuts")
 		(uuid "3d79af17-d451-4ea7-a0b6-724ba6310643")
 	)
+	(gr_text "12V"
+		(at 124.5 45.75 0)
+		(layer "F.SilkS")
+		(uuid "0a8e1405-c444-4c3d-8dc0-dab3c1af454b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L"
+		(at 134.25 45.75 0)
+		(layer "F.SilkS")
+		(uuid "19639c50-da0c-4930-9e7e-97c01416e4ef")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H\n"
+		(at 131.25 45.75 0)
+		(layer "F.SilkS")
+		(uuid "2697f0e6-86d9-4460-85a7-9f889a4d1a09")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L"
+		(at 115.75 45.75 0)
+		(layer "F.SilkS")
+		(uuid "5ed564eb-a40d-48e6-996a-b72a90684937")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 106 45.75 0)
+		(layer "F.SilkS")
+		(uuid "7fe41ba8-97be-4ca7-b692-88c45fcb6f56")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H\n"
+		(at 112.75 45.75 0)
+		(layer "F.SilkS")
+		(uuid "8ccd6064-8dce-4829-9104-183fbe7faf9f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n"
+		(at 127.5 45.75 0)
+		(layer "F.SilkS")
+		(uuid "e6ef0765-f1b0-4e6a-9c1c-0be1b6130190")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n"
+		(at 109 45.75 0)
+		(layer "F.SilkS")
+		(uuid "fbe5c2ce-8add-41d1-8630-cb7c4bb67dc9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 138.6375 60.3625)
 		(end 137.7 61.3)
@@ -22850,39 +22958,9 @@
 		)
 	)
 	(group ""
-		(uuid "3dfe140c-1ff9-4403-8660-5fc5fb423268")
-		(members "4a9deae6-aac6-4219-b78e-e941707ccc1f" "7789d32c-d280-4b4c-8444-65fcc4979ce1")
-	)
-	(group ""
-		(uuid "6b967c23-91de-4adc-b521-b1d4e707c3f6")
-		(members "64394299-4370-4e26-9ae6-82020d75ad1f" "f445d43e-5fae-440d-ad33-b7171c8dc66a")
-	)
-	(group ""
-		(uuid "8da62df7-5a2e-4c4c-afe6-8a4f4708b482")
-		(members "1ed3b207-34e8-4ed5-a79b-0baea75a29e5" "5a7d6a09-3a31-4713-96a8-965ebc3692b0")
-	)
-	(group ""
-		(uuid "ad3d583d-7300-4226-ae4f-ce87093315b4")
-		(members "1ca4d673-60b5-421c-a9e9-b4b4fe97b948" "fce72290-601b-4dbe-be7b-c995d26b8f18")
-	)
-	(group ""
-		(uuid "e22ffab6-79a1-4c2a-8e1d-3072bce53612")
-		(members "01aafeea-daae-4038-a62d-bcce26edb552" "95b3564f-a8b4-48b2-add2-bb67c1ef5f49")
-	)
-	(group ""
-		(uuid "e49ec6bb-0b41-4814-b83f-539567600cdc")
-		(members "1c981ca4-f181-4a02-9043-69ea3fc85b64" "ba536d26-9225-44f2-a602-280c52896538")
-	)
-	(group ""
 		(uuid "12fa5555-dd14-4ed9-9872-6c1e29805879")
 		(members "0d57702e-6424-44f0-a0d5-399d06ea7659" "2971deb5-1ce2-4381-8b38-70ec8754e599"
 			"89994053-5373-4a17-9303-b3aff7618f48" "d6e8fb30-030c-4f07-a172-c05efa5eb6ea"
-		)
-	)
-	(group ""
-		(uuid "55249ecf-90e7-4220-9b05-c033a6a9cdf0")
-		(members "192778c8-c0b9-417a-9c68-7968e65aa120" "6b0c06c7-49cc-4b7b-8a1e-da09a841d7f9"
-			"a8b9a53e-c5d1-4325-8b9f-c4bb823f8aa1" "bbea8ac1-cf7e-4924-87de-cbbe9de88116"
 		)
 	)
 	(group ""
