@@ -1,3 +1,6 @@
 [submodule "UTSVT-KiCadLibraries"]
 	path = UTSVT-KiCadLibraries
 	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
+[submodule "Controls-LightingRev2PCB/UTSVT-KiCadLibraries"]
+	path = Controls-LightingRev2PCB/UTSVT-KiCadLibraries
+	url = https://github.com/lhr-solar/UTSVT-KiCadLibraries.git

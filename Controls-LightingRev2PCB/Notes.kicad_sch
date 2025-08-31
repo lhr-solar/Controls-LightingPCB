@@ -1,0 +1,67 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5553c247-fb09-4347-bd8a-2291165cf796")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sources\n\nhttps://www.superlightingled.com/blog/ultimate-guide-to-choosing-the-right-addressable-led-strip/"
+		(exclude_from_sim no)
+		(at 89.154 178.054 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(href "https://www.superlightingled.com/blog/ultimate-guide-to-choosing-the-right-addressable-led-strip/")
+		)
+		(uuid "0874d677-83d3-41f7-b90e-4117073c5c31")
+	)
+	(text "Purpose of Board\n\n- Switch Normal Lights on and off\n\n- Addressable LED strips (WS2814)\n\n- Receive CAN messages from LSOM"
+		(exclude_from_sim no)
+		(at 41.91 27.94 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "91476be1-3572-45f2-bda9-f7445ba8443e")
+	)
+	(text "Rationalle for Connector\n\n3 pin (24V Supply) \n\nPROs:\n\n- More condense\n- Slighitly simpler Layout\n\nCONs:\n\n- No backup line\n- Not as fault tolerant \n\n\n4 pin connector (24 V)\n\nPROs:\n\n- Includes backup signal \n- More proofed\n\nCONs:\n\n- Slightly larger\n"
+		(exclude_from_sim no)
+		(at 144.526 53.086 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "9ab0c620-91d1-4ac5-bff5-4ae9fe06739c")
+	)
+	(text "Logic (Communication)\n\n- Receives signal from PSOM\n\n- Interprets color and brightness\n\n- Sends data to next LED (chain)\n\n- 5 volt power supply\n\n\n\nFor (WS2814)\n\n- LED has built in IC for the sole\npurpose of processing input signal"
+		(exclude_from_sim no)
+		(at 41.148 75.946 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "f039fdf4-88c9-4a4a-81f0-2002214b9676")
+	)
+	(text "LED (Light emitting)\n\n- 4 channel RGBW LED\n\n- RGBW light emitter based on \ninput signal\n\n- 24 volt power supply"
+		(exclude_from_sim no)
+		(at 92.71 64.516 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "f154fe02-afb7-426a-b7a6-0831df2d216d")
+	)
+)
