@@ -601,6 +601,14 @@
     [
       "4b4aadb4-8255-4dd1-afed-8a54e6d292d4",
       "Root"
+    ],
+    [
+      "34acb87a-a891-4401-9e64-363489e1938b",
+      "24v-5v Buck Converter"
+    ],
+    [
+      "41111982-0caa-4285-ab15-ad0808aad081",
+      "Reverse Polarity Protection"
     ]
   ],
   "text_variables": {}
