@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV70433DBVT
+D 24V Input Voltage, 150mA, Ultra-Low-Iq Low-Dropout (LDO) Regulators
+K
+F http://www.ti.com/lit/gpn/tlv704
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV70433DBVT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV70433DBVT" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-TLV70433DBVT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVT?qs=Ze4%2FuFuz19IlUNeVVK7Mig%3D%3D", "24V Input Voltage, 150mA, Ultra-Low-Iq Low-Dropout (LDO) Regulators", "http://www.ti.com/lit/gpn/tlv704", "1.45 mm"
+END_PART
+
+END.

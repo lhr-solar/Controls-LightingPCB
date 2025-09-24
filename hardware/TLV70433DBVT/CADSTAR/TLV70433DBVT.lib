@@ -1,0 +1,16 @@
+.TLV70433DBVT :1 ;24V Input Voltage, 150mA, Ultra-Low-Iq Low-Dropout (LDO) Regulators
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="GND" 2="IN" 3="OUT" 4="NC_1" 5="NC_2"
+*MXP 5
+*DFN TLV70433DBVT
+~!Mouser Part Number (595-TLV70433DBVT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVT?qs=Ze4%2FuFuz19IlUNeVVK7Mig%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV70433DBVT)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tlv704)
+~!Height (1.45mm)
+~!3D_Model (TLV70433DBVT)
+TLV70433DBVT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

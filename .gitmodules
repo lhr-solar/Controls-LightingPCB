@@ -1,3 +1,12 @@
 [submodule "KiCAD-Sharepoint"]
 	path = KiCAD-Sharepoint
 	url = https://github.com/lhr-solar/KiCAD-Sharepoint.git
+[submodule "hardware/UTSVT-KiCadLibraries"]
+	path = hardware/UTSVT-KiCadLibraries
+	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
+[submodule "hardware/KiCAD-Sharepoint"]
+	path = hardware/KiCAD-Sharepoint
+	url = git@github.com:lhr-solar/KiCAD-Sharepoint.git
+[submodule "hardware/acheron_MX.pretty"]
+	path = hardware/acheron_MX.pretty
+	url = git@github.com:AcheronProject/acheron_MX.pretty.git
