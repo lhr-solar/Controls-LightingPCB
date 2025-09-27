@@ -9,4 +9,5 @@
   (lib (name "UTSVT_Logos")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/UTSVT_Logos.pretty")(options "")(descr ""))
   (lib (name "MX_Connector")(type "KiCad")(uri "${KIPRJMOD}/75757-4160/SamacSys_Parts.pretty")(options "")(descr ""))
   (lib (name "MX150")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Fuse")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
 )

@@ -7,4 +7,5 @@
   (lib (name "UTSVT-Special")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_special.kicad_sym")(options "")(descr ""))
   (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/75757-4160/SamacSys_Parts.kicad_sym")(options "")(descr ""))
   (lib (name "Connector")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/2025-09-24_20-48-08.kicad_sym")(options "")(descr ""))
+  (lib (name "Fuse")(type "KiCad")(uri "${KIPRJMOD}/3588.kicad_sym")(options "")(descr ""))
 )
