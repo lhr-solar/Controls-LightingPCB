@@ -5087,16 +5087,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 95.885) (xy 236.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b6f743-08b6-4e6c-9c76-ae4be0e32504")
-	)
-	(wire
-		(pts
 			(xy 224.155 23.495) (xy 226.695 23.495)
 		)
 		(stroke
@@ -5274,16 +5264,6 @@
 			(type default)
 		)
 		(uuid "c1fcff9a-1934-4afd-a158-c752a975de14")
-	)
-	(wire
-		(pts
-			(xy 236.22 95.885) (xy 245.11 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2186466-9129-4f66-8526-adcdd638b82f")
 	)
 	(wire
 		(pts
@@ -5875,6 +5855,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24V_Ext"
+		(shape input)
+		(at 245.11 95.885 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1575c438-df07-4c23-b2be-09f0c8a0f50c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.7468 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13103,71 +13105,6 @@
 			(project "Controls-LightingRev2PCB"
 				(path "/4b4aadb4-8255-4dd1-afed-8a54e6d292d4"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 236.22 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe1b5ca5-c8c0-46d8-a875-66a5fd78602b")
-		(property "Reference" "#PWR056"
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 236.093 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 236.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5e92da6-a233-4dbb-a5de-0895a23440dc")
-		)
-		(instances
-			(project "Controls-LightingRev2PCB"
-				(path "/4b4aadb4-8255-4dd1-afed-8a54e6d292d4"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
