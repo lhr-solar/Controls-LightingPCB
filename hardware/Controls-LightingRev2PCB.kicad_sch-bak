@@ -8865,7 +8865,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d0bb338-4016-4a14-8a76-87857e97f7c3")
+			(uuid "2d0bb338-4016-4a14-8a76-87857e97f7c2")
 		)
 		(instances
 			(project ""

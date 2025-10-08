@@ -3314,7 +3314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passive:SODFL5026X125N"
+		(property "Footprint" "UTSVT_Passives:SODFL5026X125N"
 			(at 15.57 59.69 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passive:SODFL5026X125N"
+		(property "Footprint" "UTSVT_Passives:SODFL5026X125N"
 			(at 20.65 95.885 0)
 			(effects
 				(font
