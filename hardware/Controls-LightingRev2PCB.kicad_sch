@@ -3724,7 +3724,7 @@
 		(uuid "53ed991c-4deb-4ebf-b9ef-20b7b5328a0d")
 	)
 	(no_connect
-		(at 262.255 74.295)
+		(at 263.525 42.545)
 		(uuid "5451d2d0-bcdd-46eb-aa2a-519e639a2111")
 	)
 	(no_connect
@@ -4983,6 +4983,16 @@
 	)
 	(wire
 		(pts
+			(xy 263.525 74.295) (xy 262.255 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27dc000-0901-4b6b-8cf8-ce6a6a57915d")
+	)
+	(wire
+		(pts
 			(xy 138.43 142.875) (xy 140.97 142.875)
 		)
 		(stroke
@@ -5959,7 +5969,7 @@
 	)
 	(global_label "BPS_Sense"
 		(shape input)
-		(at 263.525 52.705 0)
+		(at 263.525 47.625 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5969,7 +5979,7 @@
 		)
 		(uuid "58ac31c4-8e00-4313-85c5-cbe3df5b4d05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.7911 52.705 0)
+			(at 276.7911 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6233,7 @@
 	)
 	(global_label "NORMAL_Sense"
 		(shape input)
-		(at 263.525 50.165 0)
+		(at 263.525 52.705 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6233,7 +6243,7 @@
 		)
 		(uuid "9d65bb31-39cd-4dd3-816d-55a9cf2cf438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.5407 50.165 0)
+			(at 280.5407 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6343,7 @@
 	)
 	(global_label "ADDR_Sense"
 		(shape input)
-		(at 263.525 47.625 0)
+		(at 263.525 50.165 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6343,7 +6353,7 @@
 		)
 		(uuid "ab848ad3-7697-4e77-8eb7-b9f6e78025c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.9402 47.625 0)
+			(at 277.9402 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6365,7 @@
 	)
 	(global_label "GPIO_BPS_Strobe"
 		(shape input)
-		(at 263.525 42.545 0)
+		(at 263.525 74.295 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6365,7 +6375,7 @@
 		)
 		(uuid "b2b05f7d-be64-4fd6-bb0a-c745103bc9fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.7782 42.545 0)
+			(at 282.7782 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
