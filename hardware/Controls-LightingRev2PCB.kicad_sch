@@ -7069,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 100K OHM 1%"
 			(at 104.14 167.64 0)
 			(effects
 				(font
@@ -7077,7 +7077,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0805100KFKEAC"
+		(property "P/N" "CRCW0603100KFKEE"
 			(at 104.14 167.64 0)
 			(effects
 				(font
@@ -7212,7 +7212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 132.08 54.61 0)
 			(effects
 				(font
@@ -7667,7 +7667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 29.21 68.58 0)
 			(effects
 				(font
@@ -7859,13 +7859,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 0603 0.5% 3.3kOhm Anti-Sulfur AEC-Q200"
 			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "ERJ-S03D3301V"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7995,13 +8003,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5"
+		(property "Description" "Operational Amplifiers - Op Amps 550uA/Ch 3MHz R/R Op A 595-TLV2371IDBVT"
 			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "TLV2371IDBVR"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -8206,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 10K OHM 1%"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -8214,7 +8230,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -8350,7 +8366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 10K OHM 1%"
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -8358,7 +8374,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -8427,7 +8443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 162.56 36.83 0)
 			(effects
 				(font
@@ -8619,7 +8635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 226.695 147.955 0)
 			(effects
 				(font
@@ -8628,7 +8644,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 226.695 147.955 0)
 			(effects
 				(font
@@ -8698,7 +8714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 1uF X5R 0603 10%"
 			(at 267.335 145.415 0)
 			(effects
 				(font
@@ -8908,13 +8924,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Current Sense Resistors - SMD 1210 90mOhm 1% Curr Sense AEC-Q200"
 			(at 45.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "ERJ-L14UF90MU"
+			(at 45.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9016,7 +9040,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100k"
 			(at 146.05 76.2 90)
 			(effects
 				(font
@@ -9042,7 +9066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 100K OHM 1%"
 			(at 146.05 78.74 0)
 			(effects
 				(font
@@ -9050,7 +9074,7 @@
 				)
 			)
 		)
-		(property "P/N" "SDR10EZPF1001"
+		(property "P/N" "CRCW0603100KFKEE"
 			(at 146.05 78.74 0)
 			(effects
 				(font
@@ -9449,13 +9473,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 0603 0.5% 3.3kOhm Anti-Sulfur AEC-Q200"
 			(at 99.06 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "ERJ-S03D3301V"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9588,13 +9620,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFETs MOSFT 30V 5.2A 28mOhm 3.6nC Qg"
 			(at 48.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9660,7 +9700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 100K OHM 1%"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -9668,7 +9708,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0805100KFKEAC"
+		(property "P/N" "CRCW0603100KFKEE"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -9870,13 +9910,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Current Sense Resistors - SMD RLC73PV 2E R012 1% 1K RL"
 			(at 40.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "RLC73PV2ER012FTDF"
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9939,7 +9987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 34.29 148.59 0)
 			(effects
 				(font
@@ -10066,13 +10114,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Current Sense Resistors - SMD RLC73PV 2E R012 1% 1K RL"
 			(at 143.51 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "RLC73PV2ER012FTDF"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10201,7 +10257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 100K OHM 1%"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -10209,7 +10265,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0805100KFKEAC"
+		(property "P/N" "CRCW0603100KFKEE"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -10278,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 160.02 128.905 0)
 			(effects
 				(font
@@ -10406,13 +10462,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5"
+		(property "Description" "Operational Amplifiers - Op Amps 550uA/Ch 3MHz R/R Op A 595-TLV2371IDBVT"
 			(at 77.47 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "TLV2371IDBVR"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -10680,13 +10744,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8"
+		(property "Description" "Current Sense Amplifiers AEC-Q100 -4V to 110 V bidirectional ultr"
 			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "INA241A5QDRQ1"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10990,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 63.5 130.81 0)
 			(effects
 				(font
@@ -11114,13 +11186,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
+		(property "Description" "Translation - Voltage Levels SGL Pwr Spply Buffer GATE CMOS"
 			(at 151.13 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "SN74LV1T34DBVR"
+			(at 151.13 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11904,13 +11984,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 0.1uF X7R 0603 10% Medical"
 			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11972,13 +12060,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8"
+		(property "Description" "Current Sense Amplifiers AEC-Q100 -4V to 110 V bidirectional ultr"
 			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "INA241A5QDRQ1"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12190,13 +12286,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8"
+		(property "Description" "Current Sense Amplifiers AEC-Q100 -4V to 110 V bidirectional ultr"
 			(at 60.96 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "INA241A5QDRQ1"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12345,13 +12449,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5"
+		(property "Description" "Operational Amplifiers - Op Amps 550uA/Ch 3MHz R/R Op A 595-TLV2371IDBVT"
 			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "TLV2371IDBVR"
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -12759,13 +12871,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFETs MOSFT 30V 5.2A 28mOhm 3.6nC Qg"
 			(at 53.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12831,13 +12951,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 0603 0.5% 3.3kOhm Anti-Sulfur AEC-Q200"
 			(at 104.14 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "ERJ-S03D3301V"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
