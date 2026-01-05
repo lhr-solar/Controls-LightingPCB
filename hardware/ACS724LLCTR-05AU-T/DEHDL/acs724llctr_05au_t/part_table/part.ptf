@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ACS724LLCTR_05AU_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Allegro Microsystems", "ACS724LLCTR-05AU-T" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "250-724LLCTR05AUT", "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS724LLCTR-05AU-T?qs=pUKx8fyJudC3f6AQOezPDA%3D%3D", "High-Accuracy, 5V Isolated Current Sensor with Stray Field Rejection", "https://www.allegromicro.com/~/media/files/datasheets/acs724-datasheet.pdf", "1.75 mm"
+END_PART
+
+END.

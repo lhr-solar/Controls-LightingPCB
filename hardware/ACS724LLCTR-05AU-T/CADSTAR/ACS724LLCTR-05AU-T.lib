@@ -1,0 +1,16 @@
+.ACS724LLCTR-05AU-T :1 ;High-Accuracy, 5V Isolated Current Sensor with Stray Field Rejection
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="IP+_1" 2="IP+_2" 3="IP-_1" 4="IP-_2" 5="GND" 6="FILTER" 7="VIOUT" 8="VCC"
+*MXP 8
+*DFN ACS724LLCTR-05AU-T
+~!Mouser Part Number (250-724LLCTR05AUT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS724LLCTR-05AU-T?qs=pUKx8fyJudC3f6AQOezPDA%3D%3D)
+~!Manufacturer_Name (Allegro Microsystems)
+~!Manufacturer_Part_Number (ACS724LLCTR-05AU-T)
+~!Link Datasheet (https://www.allegromicro.com/~/media/files/datasheets/acs724-datasheet.pdf)
+~!Height (1.75mm)
+~!3D_Model (ACS724LLCTR-05AU-T)
+ACS724LLCTR-05AU-T
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

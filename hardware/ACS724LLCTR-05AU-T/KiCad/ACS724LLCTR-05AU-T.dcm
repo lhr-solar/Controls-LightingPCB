@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS724LLCTR-05AU-T
+D High-Accuracy, 5V Isolated Current Sensor with Stray Field Rejection
+K
+F https://www.allegromicro.com/~/media/files/datasheets/acs724-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

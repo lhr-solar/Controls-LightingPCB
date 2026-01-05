@@ -143,6 +143,11 @@
 	(net 57 "unconnected-(IC3-NC_1-Pad4)")
 	(net 58 "unconnected-(IC3-NC_2-Pad5)")
 	(net 59 "unconnected-(J2-Pad14)")
+	(net 60 "unconnected-(IC2-NC_2-Pad5)")
+	(net 61 "unconnected-(IC2-NC_1-Pad4)")
+	(net 62 "unconnected-(IC3-IN-Pad3)")
+	(net 63 "unconnected-(IC3-OUT-Pad1)")
+	(net 64 "unconnected-(IC3-GND-Pad2)")
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "00929c2f-8e36-4cb8-9c75-0353ef59b6da")
@@ -357,27 +362,65 @@
 			)
 		)
 	)
-	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
+	(footprint "Lighting_Board:SOT95P280X145-5N"
 		(layer "F.Cu")
-		(uuid "091d463e-fd7a-4ae1-a81d-e84bb51f5c24")
-		(at 127.07 31.12 90)
-		(property "Reference" "Addr_Sense"
-			(at -2.3 -0.04 0)
-			(unlocked yes)
+		(uuid "064306ed-71f4-4ab4-a063-a13f938b6ee2")
+		(at 45.275 51.057949)
+		(descr "DBV")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC2"
+			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "da3fd724-ae3c-4390-9902-0363770f45f7")
+			(uuid "41fbeea5-2728-4943-a210-d0232cb4f699")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "TLV70433DBVT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0be876ba-2340-4f9b-9d8c-d27ff9dfb529")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv704"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef9d2ad-7b1d-4dcc-a0cc-f37099f286d6")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 0 1 90)
+		(property "Description" "24V Input Voltage, 150mA, Ultra-Low-Iq Low-Dropout (LDO) Regulators"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80a8b5e3-504a-48a3-b3e9-29082bd3b01b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4a22fa63-0a60-491d-90cb-ca109c021315")
+			(hide yes)
+			(uuid "8b87e1db-1ac6-46a6-8e5e-db50f5b39b5b")
 			(effects
 				(font
 					(size 1 1)
@@ -385,70 +428,270 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Mouser Part Number" "595-TLV70433DBVT"
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a7610d0-7e05-494f-9fe6-38ac62ef63d2")
+			(uuid "867c77e9-c16a-45ee-ae9e-3400c362a939")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 0 0 90)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVT?qs=Ze4%2FuFuz19IlUNeVVK7Mig%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63234036-989f-45a5-b548-105dda4f4531")
+			(uuid "f53dea02-6183-40b7-9b18-3bfe6707d9fe")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/d0557d82-22ce-4657-86b9-ae2183748fd3")
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5012a7d1-3899-42b5-b773-3cae4abaa369")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV70433DBVT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6791ec27-40d6-46c6-84b5-4162987e4630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/662aeb44-7d5e-47fa-9e86-588d4374d3c4")
 		(sheetname "/")
 		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
 		(attr smd)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
+		(fp_line
+			(start -1.85 -1.5)
+			(end -0.65 -1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e71ab4c4-81f1-4cf7-83ae-5bfdb6b512ef")
+		)
+		(fp_line
+			(start -0.3 -1.45)
+			(end 0.3 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "27513556-0c79-4cdb-a51b-a63a778a3269")
+		)
+		(fp_line
+			(start -0.3 1.45)
+			(end -0.3 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5455086-31c9-440f-8ce5-063ec49cd075")
+		)
+		(fp_line
+			(start 0.3 -1.45)
+			(end 0.3 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0da00c6-e296-49b1-9aec-278b2821bc5a")
+		)
+		(fp_line
+			(start 0.3 1.45)
+			(end -0.3 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11c0adf5-55f1-46b4-a304-7b873c88eb5b")
+		)
+		(fp_line
+			(start -2.1 -1.775)
+			(end 2.1 -1.775)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da2dd845-e9ef-441f-b5d1-b59586830716")
+		)
+		(fp_line
+			(start -2.1 1.775)
+			(end -2.1 -1.775)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6cbf78bc-46a8-4d2f-a29f-5360d33ebcae")
+		)
+		(fp_line
+			(start 2.1 -1.775)
+			(end 2.1 1.775)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9e650ad-322c-4341-8c91-aeef72ed1e60")
+		)
+		(fp_line
+			(start 2.1 1.775)
+			(end -2.1 1.775)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c2617410-142b-4a2c-a2ae-199125a83778")
+		)
+		(fp_line
+			(start -0.8 -1.45)
+			(end 0.8 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
 			(layer "F.Fab")
-			(uuid "35d907ef-8bf7-4bf2-a9cc-805f46df7bc8")
+			(uuid "3017cfb3-af74-4e6c-9f92-2e168319edc0")
+		)
+		(fp_line
+			(start -0.8 -0.5)
+			(end 0.15 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37465d1d-969e-4b06-b4b4-7bcdd4981906")
+		)
+		(fp_line
+			(start -0.8 1.45)
+			(end -0.8 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a7d26ff-d6cf-4fa6-b332-f56f7453bf29")
+		)
+		(fp_line
+			(start 0.8 -1.45)
+			(end 0.8 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bab68756-b4fc-492d-9c64-9818adf10636")
+		)
+		(fp_line
+			(start 0.8 1.45)
+			(end -0.8 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f23d749b-5f64-41ce-a835-4df3bb2fe4c3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f4911880-abda-4ed5-8f5c-556adcedc926")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.27 1.27)
+					(thickness 0.254)
 				)
 			)
 		)
-		(pad "1" connect custom
-			(at 0 0 90)
-			(size 3 3)
-			(layers "F.Cu" "F.Mask")
-			(net 27 "ADDR_Sense")
-			(pinfunction "1")
+		(pad "1" smd rect
+			(at -1.25 -0.95 90)
+			(size 0.6 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "Addressable_GND")
+			(pinfunction "GND")
 			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor circle)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "4c955213-a10a-4cc2-aef4-68890a2c7c10")
+			(uuid "a83ffdc5-0824-4cde-91d9-be974aa3cff2")
+		)
+		(pad "2" smd rect
+			(at -1.25 0 90)
+			(size 0.6 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "+24V")
+			(pinfunction "IN")
+			(pintype "passive")
+			(uuid "62d0fe5e-81c4-4d48-9ecc-dad1482e63d0")
+		)
+		(pad "3" smd rect
+			(at -1.25 0.95 90)
+			(size 0.6 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "5V PWR")
+			(pinfunction "OUT")
+			(pintype "passive")
+			(uuid "52d49022-ad66-469d-93fa-05553fd82f2d")
+		)
+		(pad "4" smd rect
+			(at 1.25 0.95 90)
+			(size 0.6 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 61 "unconnected-(IC2-NC_1-Pad4)")
+			(pinfunction "NC_1")
+			(pintype "passive+no_connect")
+			(uuid "f43ef403-abea-4f90-a072-562461dc6841")
+		)
+		(pad "5" smd rect
+			(at 1.25 -0.95 90)
+			(size 0.6 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 60 "unconnected-(IC2-NC_2-Pad5)")
+			(pinfunction "NC_2")
+			(pintype "passive+no_connect")
+			(uuid "0c963a9c-3284-42f7-9e77-22279a02953e")
 		)
 		(embedded_fonts no)
+		(model "TLV70433DBVT.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -956,99 +1199,6 @@
 			)
 		)
 	)
-	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
-		(layer "F.Cu")
-		(uuid "142fff52-88a0-40c4-9481-120a3ba365dc")
-		(at 122.03 51.71 90)
-		(property "Reference" "GPIO_5V"
-			(at -2.4 0.02 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "209dacbc-3986-42d2-b7f0-b030eeeee486")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 1 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8c519e96-303e-44a2-9b51-e34504ebb285")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d9e17e7-a95a-48ec-95f6-2825dda232d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a2fccc7-ce79-4c65-b8c6-7d02e2c8da10")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/da08ddcc-5364-4d21-ab41-8cae43511bcb")
-		(sheetname "/")
-		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
-		(attr smd)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "028d6d28-6bc4-4c35-b24b-a32e69060461")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" connect custom
-			(at 0 0 90)
-			(size 3 3)
-			(layers "F.Cu" "F.Mask")
-			(net 51 "GPIO_Addr5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor circle)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "a8350733-6d66-47fb-9035-bedea87ec06a")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1cd531cb-f64b-4f01-9cbb-959592f3add7")
@@ -1476,99 +1626,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
-		(layer "F.Cu")
-		(uuid "307569ed-94c4-4982-b4b5-b61835180ff5")
-		(at 126.81 40.45 90)
-		(property "Reference" "GPIO_Norm"
-			(at -2.31 -0.01 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "d70aad0a-2a4f-44c3-9220-541b5094045b")
-			(effects
-				(font
-					(size 0.65 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 1 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "819576f1-84fd-4052-a1f9-01abbc3c9043")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c1c5d4b-1cd4-485f-a89f-2caebf4fb187")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd97765e-13db-4109-93a5-659662f4c198")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/1f7ef80b-b8f3-4fe5-810e-1809a99b9f4f")
-		(sheetname "/")
-		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
-		(attr smd)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "71f1a271-02b9-4fc2-9e7e-294507d040b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" connect custom
-			(at 0 0 90)
-			(size 3 3)
-			(layers "F.Cu" "F.Mask")
-			(net 40 "GPIO_Normal")
-			(pinfunction "1")
-			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor circle)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "0d80f87a-e6a1-48d9-8d04-906ccd0e6fbf")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -2302,6 +2359,99 @@
 				)
 			)
 			(uuid "b894744b-a28f-48b7-ae8d-532730a340fb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
+		(layer "F.Cu")
+		(uuid "5643a594-ae1a-4eba-8c41-31f43571b3cb")
+		(at 48.65 46.53)
+		(property "Reference" "BPS_Sense1"
+			(at 0 -2.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fae8e96c-8f66-4099-826b-6bf5a7ae6784")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e376f337-f259-472c-93cd-950eaf36cb85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98692ddc-f397-41d1-9bbe-ac90cd20abb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "184365da-8be3-4121-aa6e-c23a9e9c55b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/09ec4571-3aac-4c0d-97bb-4b0008d06130")
+		(sheetname "/")
+		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3bb3321a-5ed8-4b6e-91dd-4fe04437721e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" connect custom
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(net 38 "BPS_Sense")
+			(pinfunction "1")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "79d21d6a-e3f6-4973-b8f4-57507f4d124b")
 		)
 		(embedded_fonts no)
 	)
@@ -4070,99 +4220,6 @@
 			)
 		)
 	)
-	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
-		(layer "F.Cu")
-		(uuid "86875bf8-d79b-4219-9c13-2d9e4266f101")
-		(at 118.05 58.57 90)
-		(property "Reference" "BPS_Sense"
-			(at -2.44 -0.06 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "01def904-311f-4df2-8233-0c869fbb57f8")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 1 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1e2b5fb5-6f5c-4349-b0b7-e99517f1d121")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ed98a50-ea49-4302-a1d3-ff9c64ee04b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca84883d-2c11-4cd6-a19b-cf72a9147f6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/09ec4571-3aac-4c0d-97bb-4b0008d06130")
-		(sheetname "/")
-		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
-		(attr smd)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a93ffd7b-0762-496c-a91b-236daac40151")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" connect custom
-			(at 0 0 90)
-			(size 3 3)
-			(layers "F.Cu" "F.Mask")
-			(net 38 "BPS_Sense")
-			(pinfunction "1")
-			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor circle)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "f883a8e6-5be3-4b4c-827f-7894f1af370d")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8955ee5a-8898-40d2-bbc8-8a3eb29f70ff")
@@ -5248,6 +5305,192 @@
 				(xyz -0 -0 -0)
 			)
 		)
+	)
+	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
+		(layer "F.Cu")
+		(uuid "90c7b7a9-5487-46fc-95fb-e006a77e4522")
+		(at 52.65 46.53)
+		(property "Reference" "GPIO_Addr5v1"
+			(at 0 -2.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c0b9d6c8-6b41-4c1b-b1ac-a992d1d53193")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0e711d9e-2964-48eb-a778-ec243abb3020")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a164bd24-ecff-43aa-a37b-6d72ffb8c6cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e89da65b-82b6-455b-a80b-a1601c8e71bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/da08ddcc-5364-4d21-ab41-8cae43511bcb")
+		(sheetname "/")
+		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c9bca294-11e4-4d30-8863-878713f326a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" connect custom
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(net 51 "GPIO_Addr5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "0d96e176-c532-4269-9e5c-d274f25f17eb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
+		(layer "F.Cu")
+		(uuid "93c49f7d-5258-48a5-8537-9c567d2787e6")
+		(at 44.65 46.53)
+		(property "Reference" "Addr_Sense1"
+			(at 0 -2.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "77dc783e-19e6-4d96-b84e-5e1db13aa2bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0ddd19b4-23e6-42ad-992e-27b585996b6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eb3775e-3992-4309-b415-3b84abea7952")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55a906e9-696d-44a7-9133-99122508d9b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/d0557d82-22ce-4657-86b9-ae2183748fd3")
+		(sheetname "/")
+		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b6eaa183-b34b-4b4e-b590-db2f4c5d6f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" connect custom
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(net 27 "ADDR_Sense")
+			(pinfunction "1")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "ad1975ab-971e-4d0a-8e91-9745d5c97d0b")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
@@ -7505,99 +7748,6 @@
 			)
 		)
 	)
-	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
-		(layer "F.Cu")
-		(uuid "bdbff4e5-f482-4048-9ee6-9b64c512b171")
-		(at 126.83 35.8 90)
-		(property "Reference" "GPIO_BPS"
-			(at -2.31 0.05 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "e95a30d6-2ca3-42a9-a827-7fda85a72afc")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 1 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b986c58f-69da-4523-b363-157c0396146b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e60e94b-8879-430e-a5aa-917a101eb03b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfc4bf27-fbfe-4435-9727-c08127046d22")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/ac982c9b-ef81-44a9-8ffd-356256293198")
-		(sheetname "/")
-		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
-		(attr smd)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "218f9c02-9fc5-4581-8574-97f4f1bc35dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" connect custom
-			(at 0 0 90)
-			(size 3 3)
-			(layers "F.Cu" "F.Mask")
-			(net 22 "GPIO_BPS_Strobe")
-			(pinfunction "1")
-			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor circle)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "0eb4714d-ac51-44e2-b5e6-12fab0589785")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "be645e94-d533-4f3b-9fa0-3abdb9910cf5")
@@ -9486,6 +9636,99 @@
 			)
 		)
 	)
+	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
+		(layer "F.Cu")
+		(uuid "d29cc187-f7cc-4958-966d-bd5dbf90a475")
+		(at 60.65 46.53)
+		(property "Reference" "GPIO_Norm1"
+			(at 0 -2.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "02678158-e717-4f45-85fe-d26342a95461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "83700737-79ed-4b4b-b03f-5bb88f61b168")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a5b622-0972-4067-950c-1a18a0de1f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bbb9ba6-1e8d-4105-9ef0-f3bfd2a77d02")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/1f7ef80b-b8f3-4fe5-810e-1809a99b9f4f")
+		(sheetname "/")
+		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4b48c41e-b553-4ff5-a5e8-025f696a4bd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" connect custom
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(net 40 "GPIO_Normal")
+			(pinfunction "1")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "dc35ee81-ee9a-49f4-bf77-f5f6b9b99588")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "d51236a9-1970-452f-ad18-59972ebc00d5")
@@ -9919,7 +10162,7 @@
 				)
 			)
 		)
-		(path "/bb83f764-e81a-41a6-a8f4-cc2363b5ec62")
+		(path "/6a9453e9-296b-4cff-a597-e9abe2aa171a")
 		(sheetname "/")
 		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
 		(attr smd)
@@ -10078,7 +10321,7 @@
 			(at -1.25 -0.95 90)
 			(size 0.6 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "5V PWR")
+			(net 63 "unconnected-(IC3-OUT-Pad1)")
 			(pinfunction "OUT")
 			(pintype "power_out")
 			(uuid "732a3575-f79d-45ea-9873-f29758db2216")
@@ -10087,7 +10330,7 @@
 			(at -1.25 0 90)
 			(size 0.6 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Addressable_GND")
+			(net 64 "unconnected-(IC3-GND-Pad2)")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "759241d8-d3ef-4e97-b09e-9abfae7f4a28")
@@ -10096,7 +10339,7 @@
 			(at -1.25 0.95 90)
 			(size 0.6 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "+24V")
+			(net 62 "unconnected-(IC3-IN-Pad3)")
 			(pinfunction "IN")
 			(pintype "power_in")
 			(uuid "46e74355-d6c1-4cc9-b951-c0b4393f85f3")
@@ -12514,6 +12757,99 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "UTSVT_Special:TestPoint_HEX_3mmID"
+		(layer "F.Cu")
+		(uuid "fdcfb1ea-d0b3-4d1e-a5f9-d6f5bc1c71f6")
+		(at 56.65 46.53)
+		(property "Reference" "GPIO_BPS1"
+			(at 0 -2.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "75a3f753-56c9-4e0a-a58e-69429cd4ea48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bbfa6a19-ffb0-49cf-82b6-0b566f7f2713")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5fe7578-b2ea-4bcd-bd6d-429dc74b30da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2491c4e-b6de-456a-a32c-a472c4f30ab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ac982c9b-ef81-44a9-8ffd-356256293198")
+		(sheetname "/")
+		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "74425ba1-2223-45f0-84fc-453e709ec5a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" connect custom
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(net 22 "GPIO_BPS_Strobe")
+			(pinfunction "1")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0 -1.732051) (xy 1.5 -0.866025) (xy 1.5 0.866025) (xy 0 1.732051) (xy -1.5 0.866025) (xy -1.5 -0.866025)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "dc2de621-ea1e-48a4-94ac-9aebb06498b3")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "UTSVT_Connectors:PeripheralSOM"
 		(layer "F.Cu")

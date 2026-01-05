@@ -1,0 +1,9 @@
+Manufacturer=Allegro Microsystems
+PartNumber=ACS724LLCTR-05AU-T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=8.2
+Released=2022-01-29 06:19:36
+Downloaded=2025-12-23 03:36:39
+3D=Y
