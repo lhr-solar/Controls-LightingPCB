@@ -5283,7 +5283,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_Addr"
+	(global_label "GPIO_3v3Addr"
 		(shape input)
 		(at 138.43 143.51 180)
 		(fields_autoplaced yes)
@@ -5295,34 +5295,12 @@
 		)
 		(uuid "60552988-1277-4a2e-ad35-2b835321ed99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.8291 143.51 0)
+			(at 122.4425 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V PWR"
-		(shape input)
-		(at 101.6 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63b6bcc3-502c-4fdf-a1aa-842a0bcbfcab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.8423 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5657,7 +5635,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_Addr"
+	(global_label "GPIO_3v3Addr"
 		(shape input)
 		(at 264.16 53.34 0)
 		(fields_autoplaced yes)
@@ -5669,7 +5647,7 @@
 		)
 		(uuid "d77a2b10-b2c2-407f-81b7-2eb3d367ee81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.7609 53.34 0)
+			(at 280.1475 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,28 +5767,6 @@
 			)
 		)
 	)
-	(global_label "5V PWR"
-		(shape input)
-		(at 102.87 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb8b8971-8106-4e08-ba8c-abdb6c0e2b2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1123 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_L_OUT"
 		(shape input)
 		(at 257.81 105.41 0)
@@ -5868,28 +5824,6 @@
 		(uuid "f633159d-9f3d-49d0-b597-416a113bda7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.9123 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V PWR"
-		(shape input)
-		(at 199.39 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7a106f5-66bc-4530-88f0-bdabb224f382")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.6323 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,6 +8133,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 199.39 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7129f1ae-4e5e-45fa-b4e8-ed12275cef86")
+		(property "Reference" "#PWR03"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 199.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c0ee97d-13df-406b-a067-65c011abf5a3")
+		)
+		(instances
+			(project "Controls-LightingRev2PCB"
+				(path "/4b4aadb4-8255-4dd1-afed-8a54e6d292d4"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 260.35 110.49 0)
 		(unit 1)
@@ -8749,6 +8749,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c73407b-94bb-4593-b17d-0f65061bf9e8")
+		(property "Reference" "#PWR010"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84200b7a-e3c6-4754-8b80-90ece65379e6")
+		)
+		(instances
+			(project "Controls-LightingRev2PCB"
+				(path "/4b4aadb4-8255-4dd1-afed-8a54e6d292d4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 151.13 123.19 90)
 		(unit 1)
@@ -9097,6 +9163,72 @@
 			(project ""
 				(path "/4b4aadb4-8255-4dd1-afed-8a54e6d292d4"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc109a5-ee4e-463b-b5ba-7778015dda66")
+		(property "Reference" "#PWR09"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b93cac05-2d1d-457d-910b-e7df314b2025")
+		)
+		(instances
+			(project "Controls-LightingRev2PCB"
+				(path "/4b4aadb4-8255-4dd1-afed-8a54e6d292d4"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
