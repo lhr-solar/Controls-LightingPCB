@@ -812,7 +812,7 @@
 		(layer "F.Cu")
 		(uuid "172b3bf2-e4ee-4708-8cd2-0b4bd1a4675f")
 		(at 208.6356 136.0424 90)
-		(property "Reference" "LVGND_TP1"
+		(property "Reference" "LVGND_TP"
 			(at 2.54 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2135,7 +2135,7 @@
 		(layer "F.Cu")
 		(uuid "51c4bfa8-2462-4767-a230-16aba00d5c10")
 		(at 215.85 136.0932 90)
-		(property "Reference" "GPIO_Addr5v2"
+		(property "Reference" "GPIO_Addr5v"
 			(at 2.5654 0.0246 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11562,8 +11562,8 @@
 		(layer "F.Cu")
 		(uuid "ccc6ceb8-01b9-4506-8667-6b58bb5f14c0")
 		(at 223.75 127.75 -90)
-		(property "Reference" "24V_TP1"
-			(at 2.25 0 0)
+		(property "Reference" "24V_TP"
+			(at 2.65 0.05 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1ef3ca14-94ff-49a1-8869-fad81c62ed0d")
