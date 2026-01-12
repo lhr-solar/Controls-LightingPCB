@@ -6280,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 40.64 175.26 0)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 39.37 96.52 0)
 			(effects
 				(font
@@ -7078,7 +7078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -10044,7 +10044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 155.575 95.885 0)
 			(effects
 				(font
