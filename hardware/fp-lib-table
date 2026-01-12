@@ -9,4 +9,5 @@
   (lib (name "UTSVT_Logos")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/UTSVT_Logos.pretty")(options "")(descr ""))
   (lib (name "Lighting_Board")(type "KiCad")(uri "${KIPRJMOD}/lib/TLV70433DBVT/KiCad")(options "")(descr ""))
   (lib (name "Lighting_IC")(type "KiCad")(uri "${KIPRJMOD}/lib/ACS724LLCTR-05AU-T/KiCad")(options "")(descr ""))
+  (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/lib/CURRENT Adj LDO/AP2205-W5-7.pretty")(options "")(descr ""))
 )

@@ -7,4 +7,5 @@
   (lib (name "UTSVT-Special")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_special.kicad_sym")(options "")(descr ""))
   (lib (name "TLV70433DBVT")(type "KiCad")(uri "${KIPRJMOD}/lib/TLV70433DBVT/KiCad/TLV70433DBVT.kicad_sym")(options "")(descr ""))
   (lib (name "ACS724LLCTR")(type "KiCad")(uri "${KIPRJMOD}/lib/ACS724LLCTR-05AU-T/KiCad/ACS724LLCTR-05AU-T.kicad_sym")(options "")(descr ""))
+  (lib (name "24-5-LDO")(type "KiCad")(uri "${KIPRJMOD}/lib/CURRENT Adj LDO/AP2205-W5-7.kicad_sym")(options "")(descr ""))
 )
