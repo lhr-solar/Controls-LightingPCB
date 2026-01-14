@@ -220,7 +220,7 @@
 				)
 			)
 		)
-		(property "P/N" "HMK107B7104KA-T"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "Value" "1nf"
+		(property "Value" "1nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "df7a7dd3-52a3-4d43-af3b-e7bcdc4fd430")
@@ -443,6 +443,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f2dae08-f43e-4b29-9802-f762dcbb52c2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -648,7 +661,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "GRT188R61H225KE13D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1230,6 +1243,19 @@
 				)
 			)
 		)
+		(property "P/N" "AP2205-W5-7 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26e1dd42-0566-4dc8-9578-1c8cdec9042a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1006510b-ecf6-407a-a72a-2e8afd7f93b9")
 		(sheetname "/")
 		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
@@ -1498,7 +1524,7 @@
 				)
 			)
 		)
-		(property "P/N" "MSASU168SB7224KTNB25"
+		(property "P/N" "MSASU168SB7224KTNB25 "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1725,7 +1751,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI"
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2452,7 +2478,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2666,7 +2692,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CRCW060330K0FKEA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3164,6 +3190,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed1e1d57-e049-4feb-af18-3d5340e907a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "ACS724LLCTR-05AU-T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "727be3c8-5074-4291-9768-0df10de3facc")
 			(effects
 				(font
 					(size 1 1)
@@ -3928,6 +3967,19 @@
 				)
 			)
 		)
+		(property "P/N" "1053132102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf6d4385-c1a4-4cbb-946c-013d07845ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f79023f5-3764-4bfc-aa70-2dc53b8e0a42")
 		(sheetname "/")
@@ -4525,6 +4577,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "1053132102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44f4a03d-9fad-4ee1-a9bb-96f1d7706eb2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5727,6 +5792,19 @@
 				)
 			)
 		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ce7494-1c45-4d0e-9120-477010bc51cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3227eda6-305b-4faf-a8aa-40cb81470de0")
 		(sheetname "/")
@@ -6105,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a95967d9-f871-4dba-b34c-915db45d46af")
@@ -6365,6 +6443,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f394632a-6854-434c-80da-b18261e13857")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6784,6 +6875,19 @@
 				)
 			)
 		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85676b20-9267-41cf-86ba-2d40943403df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cacf27df-a23d-4407-9bc8-3deb35575196")
 		(sheetname "/")
@@ -6948,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e8cac9d8-5113-4b22-9b59-8e6106a8224d")
@@ -6981,6 +7085,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5fc10bc-e904-4806-8263-acbf5dc93715")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8071,6 +8188,19 @@
 				)
 			)
 		)
+		(property "P/N" "1053141310"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8b9a770-58fa-4c3c-b102-cc952abd71cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/d1290d8a-6334-4462-ad2d-2a49152f31d7")
 		(sheetname "/")
@@ -8723,6 +8853,19 @@
 				)
 			)
 		)
+		(property "P/N" "ACS724LLCTR-05AU-T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d380f433-bf5f-4b32-915a-1f12ae369310")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e47d123a-15d1-4deb-8970-9206b2634726")
 		(sheetname "/")
 		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
@@ -9016,6 +9159,19 @@
 				)
 			)
 		)
+		(property "P/N" "SMAF4758A-TP "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b1decca-1030-4fd6-9036-0a7bd45124f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/41111982-0caa-4285-ab15-ad0808aad081/c14b4f59-05e7-4bf5-84a0-5fbb5a89a522")
 		(sheetname "/Reverse Polarity Protection/")
@@ -9228,6 +9384,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "1053131103 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc8647ed-33bc-490d-b024-dcaf4f1dec9d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11781,7 +11950,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "337cb250-2dec-4b94-896c-abc72df43ec9")
@@ -11818,7 +11987,7 @@
 				)
 			)
 		)
-		(property "P/N" "HMK107B7104KA-T"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12041,6 +12210,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c3a8d7c-90b3-4406-9943-6e86922fcdf7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12473,7 +12655,7 @@
 				)
 			)
 		)
-		(property "P/N" "UMK107BJ105KA-T"
+		(property "P/N" "MLASU168SB5105KTNA01"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13455,6 +13637,19 @@
 				)
 			)
 		)
+		(property "P/N" "ACS724LLCTR-05AU-T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a73b2c78-cafc-475f-9c3e-468600f0e097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0e463595-ca5b-4160-a7da-6eb899c50e14")
 		(sheetname "/")
 		(sheetfile "Controls-LightingRev2PCB.kicad_sch")
@@ -13712,7 +13907,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "39f4633a-d8af-4c65-8b20-171b0f67b7f4")
@@ -13749,7 +13944,7 @@
 				)
 			)
 		)
-		(property "P/N" "HMK107B7104KA-T"
+		(property "P/N" "MLASU168SB5105KTNA01"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -542,10 +542,10 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": false
+          "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -558,21 +558,21 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -629,7 +629,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "P/N",
           "name": "P/N",
           "show": true
@@ -656,7 +656,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -682,7 +682,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "P/N"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -6082,6 +6082,14 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "ACS724LLCTR-05AU-T"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "f6c87716-ed5d-4b91-b920-dafb6aa1250c")
 		)
@@ -6444,6 +6452,14 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "ACS724LLCTR-05AU-T"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "993bbb7b-c559-4647-9407-bc32336f821a")
 		)
@@ -6580,6 +6596,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "P/N" "AP2205-W5-7 "
+			(at 254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -6859,6 +6883,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "1053132102"
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7254,6 +7286,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 90.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8126,7 +8166,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "GRM21BR61H106KE43K"
 			(at 214.63 151.13 0)
 			(effects
 				(font
@@ -8548,6 +8588,14 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6569ff79-9cfe-4813-bc23-c6808b68855c")
 		)
@@ -8616,6 +8664,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9375,7 +9431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nf"
+		(property "Value" "1nF"
 			(at 93.98 90.1699 0)
 			(effects
 				(font
@@ -9409,6 +9465,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9697,7 +9761,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI "
+		(property "P/N" "CRCW060330K0FKEA"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -10119,6 +10183,14 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 100.33 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42ca2a4c-7010-441f-8a8f-0f549a0262db")
 		)
@@ -10185,6 +10257,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "1053141310"
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10546,7 +10626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 104.14 90.1699 0)
 			(effects
 				(font
@@ -10580,6 +10660,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10700,6 +10788,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "P/N" "ACS724LLCTR-05AU-T"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -11080,7 +11176,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "GRT188R61H225KE13D"
 			(at 264.16 147.32 0)
 			(effects
 				(font
@@ -11159,6 +11255,14 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "1053131103 "
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "938c348a-37ed-447d-8b90-12bbe40b5313")
 		)
@@ -11230,6 +11334,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "P/N" "1053132102"
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
