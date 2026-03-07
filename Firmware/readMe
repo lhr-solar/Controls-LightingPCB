@@ -1,0 +1,43 @@
+Two RTOS tasks
+
+    LED_Task
+
+    Purpose:
+        - Updates the WS2814 LED strip based on the most recently received canByte
+
+    Inputs:
+        - canByte (updated by CAN receive interupt)
+
+    Function:
+        - Reads the most recently received canByte
+        - Decode bits (headlights, turn indicators, brake)
+        - Populate WS2814 LED data arrays for color and or pattern
+        - Update DMA PWM buffer
+        - Decide on a time period to run this 
+
+
+
+    Send_CAN_Read_ADC_Task
+
+    Purpose:
+        - Reads new ADC data from DMA buffer and sends CAN message with updated sensor info
+        - We never want to send CAN without having new ADC data so we bundle two processes
+            - Only invoke task when
+                - ADC is finished converting
+                - DMA has written new values into memory
+                - ADC DMA interupt signals taks
+
+    Inputs:
+        - ADC buffer (populated by DMA)
+        - Semaphore given by ADC DMA complete interupt
+
+    Function:
+        - Block semaphore until DMA signals conversion completion
+        - Read the newly filled ADC buffer from memory
+        - Convert/process ADC readings as needed // don't do unecessary processing
+            - ADC gives 12-bit values but CAN messages use 8-bit bytes
+        - Construct CAN message payload
+            - create the actual bytes that go in the CAN frame
+        - Send CAN message 
+       -  Restart ADC DMA for next conversion cycle`
+    
