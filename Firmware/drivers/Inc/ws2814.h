@@ -28,10 +28,10 @@
 #define MAX_RGB_VAL 255
 
 // WS2814 is RGBW, so 4 elements per LED
-#define NUMBER_PWM_DATA_ELEMENTS 4
+#define NUMBER_PWM_DATA_ELEMENTS 5
 
 // timer period for PWM
-#define WS2814_TIMER_PERIOD_TICKS 59
+#define WS2814_TIMER_PERIOD_TICKS 89
 
 // PWM pulse widths for high and low signal
 #define WS2814_HIGH (2*WS2814_TIMER_PERIOD_TICKS)/3

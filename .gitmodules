@@ -10,3 +10,6 @@
 [submodule "hardware/acheron_MX.pretty"]
 	path = hardware/acheron_MX.pretty
 	url = git@github.com:AcheronProject/acheron_MX.pretty.git
+[submodule "Firmware/Embedded-Sharepoint"]
+    	path = Firmware/Embedded-Sharepoint
+    	url = https://github.com/lhr-solar/Embedded-Sharepoint.git

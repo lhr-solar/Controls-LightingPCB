@@ -1,4 +1,11 @@
 #include "ws2814.h"
+#include "DBG.h"
+
+static void MX_DMA_Init(void);
+static void MX_TIM16_Init(void);
+
+extern ws2814_handle_t ledStrip;
+DMA_HandleTypeDef hdma_tim16_ch1;
 
 typedef enum {
     WS2814_LEDNUMBER = 0, // index to LED number
@@ -22,6 +29,9 @@ typedef enum {
 ws2814_status_t ws2814_init(ws2814_handle_t *ledHandler, uint8_t ledData[][NUMBER_PWM_DATA_ELEMENTS], uint16_t *pwmData, TIM_HandleTypeDef *timerHandle, uint32_t channel, uint8_t numberLeds){
     
     if (ledHandler==NULL || pwmData==NULL || timerHandle==NULL || ledData==NULL) return WS2814_NULL_ERROR;
+
+    MX_DMA_Init();
+    MX_TIM16_Init();
 
     ledHandler->pwmBuffer = pwmData; // assign DMA buffer which holds PWM waveform
     ledHandler->timerHandle = timerHandle; // WS2814 timing to generate accurate waveform
@@ -86,6 +96,8 @@ static ws2814_status_t ws2814_send_color(ws2814_handle_t *ledHandler, uint32_t i
         if(err == HAL_ERROR) ledHandler->dmaActive = 0;
     }
     taskEXIT_CRITICAL();
+
+    printf("Starting DMA frame\n\r");
 
     return (err == HAL_OK) ? WS2814_OK : WS2814_ERROR;
 }
@@ -203,4 +215,87 @@ void ws2814_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim, ws2814_handle
         HAL_TIM_PWM_Stop_DMA(htim, ledHandler->channel);
         ledHandler->dmaActive = 0; // deactivate DMA
     }
+}
+
+void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim)
+{
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+
+    ws2814_TIM_PWM_PulseFinishedCallback(htim, &ledStrip, &xHigherPriorityTaskWoken);
+
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+}
+
+void HAL_TIM_PWM_PulseFinishedHalfCpltCallback(TIM_HandleTypeDef *htim)
+{
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+
+    ws2814_TIM_PWM_PulseFinishedCallback(htim, &ledStrip, &xHigherPriorityTaskWoken);
+
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+}
+
+TIM_HandleTypeDef htim16;
+
+static void MX_TIM16_Init(void)
+{
+    TIM_OC_InitTypeDef sConfigOC = {0};
+
+    htim16.Instance = TIM16;
+    htim16.Init.Prescaler = 0;
+    htim16.Init.CounterMode = TIM_COUNTERMODE_UP;
+    htim16.Init.Period = WS2814_TIMER_PERIOD_TICKS;
+    htim16.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+    htim16.Init.RepetitionCounter = 0;
+
+    HAL_TIM_Base_Init(&htim16);
+    HAL_TIM_PWM_Init(&htim16);
+
+    sConfigOC.OCMode = TIM_OCMODE_PWM1;
+    sConfigOC.Pulse = 0;
+    sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+
+    HAL_TIM_PWM_ConfigChannel(&htim16, &sConfigOC, TIM_CHANNEL_1);
+
+    /* enable DMA requests from timer compare */
+    __HAL_TIM_ENABLE_DMA(&htim16, TIM_DMA_CC1);
+
+    /* -------- GPIO CONFIG FOR TIM16_CH1 -------- */
+    __HAL_RCC_GPIOA_CLK_ENABLE();   // depends on which port you use
+
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    GPIO_InitStruct.Pin = GPIO_PIN_6;      // example pin
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF14_TIM16;
+
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+}
+
+void DMA1_Channel1_IRQHandler(void)
+{
+    HAL_DMA_IRQHandler(&hdma_tim16_ch1);
+}
+
+static void MX_DMA_Init(void)
+{
+    __HAL_RCC_DMA1_CLK_ENABLE();
+
+    hdma_tim16_ch1.Instance = DMA1_Channel1;
+    hdma_tim16_ch1.Init.Direction = DMA_MEMORY_TO_PERIPH;
+    hdma_tim16_ch1.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_tim16_ch1.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_tim16_ch1.Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
+    hdma_tim16_ch1.Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
+    hdma_tim16_ch1.Init.Mode = DMA_NORMAL;
+    hdma_tim16_ch1.Init.Priority = DMA_PRIORITY_HIGH;
+
+    HAL_DMA_Init(&hdma_tim16_ch1);
+
+    /* link DMA to timer */
+    __HAL_LINKDMA(&htim16, hdma[TIM_DMA_ID_CC1], hdma_tim16_ch1);
+
+    HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
 }

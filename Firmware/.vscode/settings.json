@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "printf.h": "c",
+        "stm32xx_hal.h": "c",
+        "cstdio": "c",
+        "__verbose_abort": "c",
+        "main.h": "c",
+        "ws2814.h": "c",
+        "dbg.h": "c"
+    }
+}

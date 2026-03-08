@@ -31,7 +31,7 @@ extern TIM_HandleTypeDef htim1;
 
 int main(void){
     HAL_Init(); // init hal library and system tick timer
-    SystemClock_Config(); stm32 clock 
+    SystemClock_Config(); //stm32 clock 
 
     /* put this in lights_init
     MX_GPIO_Init(); // init gpio pins as configured in CubeMX
