@@ -8057,7 +8057,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8107,6 +8107,15 @@
 		)
 		(property "P/N" "NVMFWS1D7N04XMT1G"
 			(at 135.255 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C133142"
+			(at 135.255 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,6 +8365,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41564f48-2564-4447-b4b1-7f21904e4eef")
 		)
@@ -8511,6 +8529,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C344195"
+			(at 92.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a0902b6-8e58-4029-b876-9bb530c621f8")
 		)
@@ -8599,6 +8626,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 92.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7c3b8b5-cbf5-4fa5-811a-dc531978d7a7")
 		)
@@ -8619,7 +8655,7 @@
 		(at 94.615 88.265 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8669,6 +8705,15 @@
 		)
 		(property "P/N" "NVMFWS1D7N04XMT1G"
 			(at 94.615 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C133142"
+			(at 94.615 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,6 +8896,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 248.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "114c225d-5fe8-4b9b-8da0-178620014f55")
 		)
@@ -8930,6 +8984,15 @@
 			)
 		)
 		(property "Mouser Part Number" "963-HMK107B7104KA-T"
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 83.82 87.63 0)
 			(effects
 				(font
@@ -9074,6 +9137,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 157.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33ed1a10-29c3-4437-9a12-afb74619a6f1")
 		)
@@ -9191,6 +9263,15 @@
 			)
 		)
 		(property "P/N" "LM74502HDDFR"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5219202"
 			(at 96.52 119.38 0)
 			(effects
 				(font
@@ -9378,6 +9459,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 77.47 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01ac210c-910d-480b-95db-c5679783dcf9")
 		)
@@ -9458,6 +9548,15 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-4.3K-E3"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C2907165"
 			(at 212.09 90.17 0)
 			(effects
 				(font
@@ -9575,7 +9674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 148.2852 93.98 0)
 			(effects
 				(font
@@ -9612,6 +9711,15 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM21BR61H106KE3K"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C440198"
 			(at 147.32 90.17 0)
 			(effects
 				(font
@@ -9886,6 +9994,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 66.04 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ff01767-2bfb-41ac-b102-14759d85c3b4")
 		)
@@ -10037,6 +10154,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a70b3fbd-e410-4f70-a9fc-ba271e582c4d")
 		)
@@ -10123,6 +10249,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C3016444"
+			(at 142.24 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "751598e8-89a0-4294-bcf4-3da7afe3c3a7")
 		)
@@ -10149,7 +10284,7 @@
 		(fields_autoplaced yes)
 		(uuid "c14b4f59-05e7-4bf5-84a0-5fbb5a89a522")
 		(property "Reference" "D1"
-			(at 84.455 123.1899 90)
+			(at 83.82 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +10293,7 @@
 			)
 		)
 		(property "Value" "SMAF4758A"
-			(at 84.455 125.7299 90)
+			(at 83.82 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,6 +10334,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 81.28 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10311,7 +10456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.0252 99.06 0)
 			(effects
 				(font
@@ -10348,6 +10493,15 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM21BR61H106KE3K"
+			(at 226.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C440198"
 			(at 226.06 95.25 0)
 			(effects
 				(font
@@ -10502,6 +10656,15 @@
 			)
 		)
 		(property "Mouser Part Number" "594-MCT06030C2003FP5"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C25811"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -10723,6 +10886,15 @@
 		)
 		(property "P/N" "XL-1608UBC-06A"
 			(at 212.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C7371904"
+			(at 212.09 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)

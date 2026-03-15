@@ -5995,7 +5995,7 @@
 				)
 			)
 		)
-		(property "Value" "ACS724LLCTR-05AU-T"
+		(property "Value" "ACS724LLCTR-05AB-T"
 			(at 68.58 69.85 0)
 			(effects
 				(font
@@ -6042,26 +6042,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "250-724LLCTR05AUT"
-			(at 82.55 569.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS724LLCTR-05AU-T?qs=pUKx8fyJudC3f6AQOezPDA%3D%3D"
-			(at 82.55 669.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Allegro Microsystems"
 			(at 82.55 769.85 0)
 			(effects
@@ -6072,22 +6052,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ACS724LLCTR-05AU-T"
-			(at 82.55 869.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "P/N" "ACS724LLCTR-05AU-T"
+		(property "P/N" "ACS724LLCTR-05AB-T"
 			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22392329"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6187,6 +6167,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf24cd94-927d-4182-970d-068f74999b02")
 		)
@@ -6257,6 +6246,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4334428-0d54-4019-a962-71a4e027f745")
 		)
@@ -6280,7 +6278,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c570d11-ac06-40c8-8693-0a9346cbfe7c")
 		(property "Reference" "R12"
-			(at 40.005 182.8799 0)
+			(at 40.64 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +6287,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 40.005 185.4199 0)
+			(at 40.64 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,9 +6319,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI "
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 38.1 184.15 0)
 			(effects
 				(font
@@ -6365,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Value" "ACS724LLCTR-05AU-T"
+		(property "Value" "ACS724LLCTR-05AB-T"
 			(at 166.37 55.88 0)
 			(effects
 				(font
@@ -6412,7 +6420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "250-724LLCTR05AUT"
+		(property "Mouser Part Number" "ACS724LLCTR-05AB-T"
 			(at 180.34 555.88 0)
 			(effects
 				(font
@@ -6442,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ACS724LLCTR-05AU-T"
+		(property "Manufacturer_Part_Number" "ACS724LLCTR-05AB-T"
 			(at 180.34 855.88 0)
 			(effects
 				(font
@@ -6452,12 +6460,22 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "ACS724LLCTR-05AU-T"
+		(property "P/N" "ACS724LLCTR-05AB-T"
 			(at 148.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22392329"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6604,6 +6622,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" "C3001658"
+			(at 254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -6818,6 +6845,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 91.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce9dc97b-d496-459f-84dc-877729753357")
 		)
@@ -6891,6 +6927,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7084,6 +7130,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7294,6 +7349,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C1588"
+			(at 90.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7388,7 +7453,7 @@
 		(fields_autoplaced yes)
 		(uuid "37c33f53-653d-4227-88ff-a35fe8e04224")
 		(property "Reference" "R11"
-			(at 40.005 104.1399 0)
+			(at 40.64 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7462,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 40.005 106.6799 0)
+			(at 40.64 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,9 +7494,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI "
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -7502,6 +7577,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 189.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 189.23 64.77 0)
 			(effects
 				(font
@@ -7698,6 +7782,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 36.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8053,10 +8146,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69d5d288-873f-46f8-b9b1-bff322698fe3")
 		(property "Reference" "TP3"
-			(at 163.195 98.5519 0)
+			(at 163.068 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +8157,7 @@
 			)
 		)
 		(property "Value" "GPIO_Addr5v"
-			(at 163.195 101.0919 0)
+			(at 163.068 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,6 +8184,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 161.29 96.52 0)
 			(effects
 				(font
@@ -8139,7 +8240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.6648 147.32 0)
 			(effects
 				(font
@@ -8167,6 +8268,15 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
+			(at 214.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C440198"
 			(at 214.63 151.13 0)
 			(effects
 				(font
@@ -8300,6 +8410,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8513,6 +8632,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C67272"
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8594,6 +8723,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8672,6 +8811,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C1588"
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8743,6 +8892,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "459c549a-956e-4127-bcbb-2a4cc7a46049")
 		)
@@ -8801,6 +8959,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 34.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 34.29 96.52 0)
 			(effects
 				(font
@@ -9063,6 +9230,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9473,6 +9649,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C1588"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9614,6 +9800,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C47117565"
+			(at 151.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9762,6 +9958,15 @@
 			)
 		)
 		(property "P/N" "CRCW060330K0FKEA"
+			(at 255.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C18681"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -9981,6 +10186,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c42a2e2-393e-4e9f-b359-75aac11dfa29")
 		)
@@ -10189,6 +10403,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 100.33 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10265,6 +10489,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10435,6 +10668,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 245.11 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5be994e9-cc4a-4fbe-97d3-8607ed253a80")
 		)
@@ -10592,6 +10834,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e96ebdda-2d2a-44fb-b619-cb6b80f7c8d6")
 		)
@@ -10668,6 +10919,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10703,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Value" "ACS724LLCTR-05AU-T"
+		(property "Value" "ACS724LLCTR-05AB-T"
 			(at 68.58 148.59 0)
 			(effects
 				(font
@@ -10750,37 +11011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "250-724LLCTR05AUT"
-			(at 82.55 648.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS724LLCTR-05AU-T?qs=pUKx8fyJudC3f6AQOezPDA%3D%3D"
-			(at 82.55 748.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 82.55 848.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACS724LLCTR-05AU-T"
+		(property "Manufacturer_Part_Number" "ACS724LLCTR-05AB-T"
 			(at 82.55 948.59 0)
 			(effects
 				(font
@@ -10790,12 +11021,22 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "ACS724LLCTR-05AU-T"
+		(property "P/N" "ACS724LLCTR-05AB-T"
 			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C22392329"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -10946,10 +11187,20 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "P/N" "CRCW0603100KFKEE"
 			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C25803"
+			(at 153.67 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,10 +11283,21 @@
 		)
 		(property "P/N" "IRLML0030TRPBF"
 			(at 48.26 176.53 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C67272"
+			(at 48.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11185,6 +11447,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C57895"
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36f02bdd-add1-4113-b1dd-8a48c518e97f")
 		)
@@ -11261,6 +11532,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11342,6 +11623,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
